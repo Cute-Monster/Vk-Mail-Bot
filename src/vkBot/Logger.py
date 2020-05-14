@@ -4,8 +4,9 @@ import os
 
 class Log:
     def __init__(self, module):
-        self.error_log_file = open("{}/errors.log".format(os.path.abspath('Logs')), "a")
-        self.access_log_file = open("{}/access.log".format(os.path.abspath('Logs')), "a")
+        self.abs_path_to_log = os.path.abspath('src/Logs')
+        self.error_log_file = open("{}/errors.log".format(self.abs_path_to_log), "a")
+        self.access_log_file = open("{}/access.log".format(self.abs_path_to_log), "a")
         self.module = module
 
         self.priority = {
@@ -17,11 +18,11 @@ class Log:
 
     def log_all(self, priority, string):
         if self.error_log_file.closed or self.access_log_file.closed:
-            self.error_log_file = open("{}/errors.log".format(os.path.abspath('Logs')), "a")
-            self.access_log_file = open("{}/access.log".format(os.path.abspath('Logs')), "a")
+            self.error_log_file = open("{}/errors.log".format(self.abs_path_to_log), "a")
+            self.access_log_file = open("{}/access.log".format(self.abs_path_to_log), "a")
 
         (self.access_log_file if priority == 3 or priority == 4 else self.error_log_file).writelines(
-            "{}: {}: {}: {}\n".format(
+            "{} | {} | {} | {}\n".format(
                 datetime.now(),
                 self.module,
                 self.priority.get(priority),

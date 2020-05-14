@@ -1,0 +1,37 @@
+2020-05-04 08:00:47.539216: main: CRITICAL: command: SEARCH => Terminating connection. Please try again.
+2020-05-05 08:00:50.087244: main: CRITICAL: command: EXAMINE => socket error: EOF
+2020-05-06 08:00:01.013726: __main__: CRITICAL: command: EXAMINE => socket error: EOF
+2020-05-07 08:00:00.109016: __main__: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-07 12:01:56.073963: __main__: CRITICAL: count() takes at least 1 argument (0 given)
+2020-05-07 12:01:57.270077: __main__: CRITICAL: count() takes at least 1 argument (0 given)
+2020-05-07 12:01:58.426179: __main__: CRITICAL: count() takes at least 1 argument (0 given)
+2020-05-07 12:02:00.096394: __main__: CRITICAL: count() takes at least 1 argument (0 given)
+2020-05-07 12:02:01.148787: __main__: CRITICAL: count() takes at least 1 argument (0 given)
+2020-05-07 17:26:46.856458: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-07 17:26:47.214968: __main__: CRITICAL: command LOGIN illegal in state LOGOUT, only allowed in states NONAUTH
+2020-05-07 17:26:47.716461: __main__: CRITICAL: [Errno 9] Bad file descriptor
+2020-05-07 17:26:48.215916: __main__: CRITICAL: [Errno 9] Bad file descriptor
+2020-05-07 17:26:48.758971: __main__: CRITICAL: [Errno 9] Bad file descriptor
+2020-05-07 17:26:49.287790: __main__: CRITICAL: [Errno 9] Bad file descriptor
+2020-05-08 08:00:00.684160: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-08 15:40:15.160905: ImapClient: CRITICAL: command: SEARCH => System error
+2020-05-08 16:20:18.809520: ImapClient: CRITICAL: command: SEARCH => System error
+2020-05-08 23:20:33.179458: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-09 08:00:00.760734: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-10 08:00:00.890705: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-10 09:10:03.844859: ImapClient: CRITICAL: command: SEARCH => System error
+2020-05-10 09:50:07.828951: ImapClient: CRITICAL: command: SEARCH => Terminating connection. Please try again.
+2020-05-10 10:00:09.430404: ImapClient: CRITICAL: command: SEARCH => System error
+2020-05-10 16:00:21.438023: ImapClient: CRITICAL: command: SEARCH => System error
+2020-05-10 16:30:26.354387: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-11 08:00:01.012240: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-11 09:20:03.520461: ImapClient: CRITICAL: command: SEARCH => Terminating connection. Please try again.
+2020-05-11 20:00:24.341093: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-11 20:20:30.593937: ImapClient: CRITICAL: command: SEARCH => System error
+2020-05-11 22:20:37.448735: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-12 08:00:00.401380: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-12 20:20:35.216556: ImapClient: CRITICAL: command: SEARCH => System error
+2020-05-12 21:10:42.009062: ImapClient: CRITICAL: command: SEARCH => System error
+2020-05-13 08:00:00.751376: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-13 20:30:35.964214: ImapClient: CRITICAL: command: SEARCH => socket error: EOF
+2020-05-14 08:00:00.311391: ImapClient: CRITICAL: command: SEARCH => socket error: EOF

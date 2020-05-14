@@ -1,7 +1,4 @@
 import vk_api
-from vk_api import VkUpload
-from vk_api.longpoll import VkLongPoll, VkEventType
-from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 from vk_api.utils import get_random_id
 from ImapClient import ImapClient
 from Logger import Log
@@ -28,30 +25,48 @@ class VkNotifier:
         self.counter = 0
 
     def check_for_new_messages(self):
+        """
+        Checking the mailbox for new messages. If found unseen for the bot,
+        then notify chat and dev about this message by sending message text of unseen message
+        :return:
+        """
         new_messages_sent = False
         self.new_inbox_email = self.mail_client.get_array_of_messages_to_send()
         if not self.new_inbox_email:
             self.no_new_messages()
         else:
             for uid, message_text in self.new_inbox_email:
-                if uid not in self.seen_emails_uid:
+                # print(f"uid : {uid} : in seen {uid in self.seen_emails_uid}")
+                if uid in self.seen_emails_uid:
+                    continue
+                else:
                     new_messages_sent = True
                     self.notify(message_text)
                     self.seen_emails_uid.append(uid)
             if new_messages_sent:
+                self.log_file.log_all(3, "Found unseen messages")
                 self.notify("Filter the INBOX folder please ;-)")
+                self.counter = 0
             else:
                 self.no_new_messages()
 
     def no_new_messages(self):
+        """
+        Log and send a message to dev if no new messages have been found
+        :return:
+        """
         self.counter += 1
         self.log_file.log_all(3, "No unseen messages")
-        if self.counter is 6:
+        if self.counter == 6:
             self.counter = 0
             self.send_message_to_dev("No unseen messages\nGoing to sleep :-(")
-            self.log_file.log_all(3, "No unseen messages")
 
     def notify(self, text):
+        """
+        Sending a message to selected chat and dev
+        :param text: message text
+        :return:
+        """
         if self.send_only_to_dev:
             self.send_message_to_dev(text)
         else:
@@ -59,6 +74,10 @@ class VkNotifier:
             self.send_message_to_chat(text)
 
     def login_throw_user(self):
+        """
+        Login to vk throw user account
+        :return:
+        """
         self.vk_session = vk_api.VkApi(self.user_login, self.user_password)
         try:
             self.vk = self.vk_session.auth(token_only=True)
@@ -66,10 +85,19 @@ class VkNotifier:
             self.log_file.log_all(1, error_msg)
 
     def login_throw_group(self):
+        """
+        Login to vk through group bot token
+        :return:
+        """
         self.vk_session = vk_api.VkApi(token=self.token, scope='messages')
         self.vk = self.vk_session.get_api()
 
     def send_message_to_dev(self, text):
+        """
+        Sending message to dev
+        :param text: message text
+        :return:
+        """
         self.vk.messages.send(
             user_id=self.dev_vk_id,
             random_id=get_random_id(),
@@ -77,8 +105,14 @@ class VkNotifier:
         )
 
     def send_message_to_chat(self, text):
+        """
+        Sending message to selected chat
+        :param text: message text
+        :return:
+        """
         self.vk.messages.send(
             peer_id='200000000{}'.format(self.group_chat_id),
             random_id=get_random_id(),
             message=text
         )
+
