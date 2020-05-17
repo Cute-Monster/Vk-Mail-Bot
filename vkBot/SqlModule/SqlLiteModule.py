@@ -47,8 +47,12 @@ class SqlLiteModule:
                     WHERE mess_text = '{hashlib.md5(bytes(message_text + self.seed, 'utf8')).hexdigest()}')
         """)
         result = self.cursor.fetchone()
-        print("HUI: ", result)
+        # print("HUI: ", result)
         return result
+
+    def reconnect(self):
+        self.connection = sqlite3.connect("vkBot/SqlModule/bot.db")
+        self.log_file.log_all(3, "Reconnected.")
 
     def close_connection(self):
         self.connection.close()

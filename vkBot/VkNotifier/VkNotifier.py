@@ -13,8 +13,8 @@ class VkNotifier:
         self.user_login = ""
         self.user_password = ""
         self.token = '1e415cfb00820bd2be0c44ce3085998e5d73b441fa68cc0edbe152ae5b3babc75f043ca93e441ea7bc52d'
-        self.vk_session = None
-        self.vk = None
+        self.vk_session = vk_api.VkApi(token=self.token, scope='messages')
+        self.vk = self.vk_session.get_api()
         (self.login_throw_user() if login_method == 2 else self.login_throw_group())
         self.sleep_time = int(15)
         self.dev_vk_id = "198253590"
