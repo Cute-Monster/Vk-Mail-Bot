@@ -1,7 +1,7 @@
 import imapclient
 import pyzmail
-from Logger import Log
-
+# from Logger import Log
+from vkBot.Logger.Logger import Log
 
 class ImapClient:
     def __init__(self):
@@ -85,7 +85,7 @@ class ImapClient:
             self.log_file.log_all(1, f"Reconnection failed. {str(error)}")
             self.reconnect()
 
-    def get_array_of_messages_to_send(self):
+    def get_array_of_messages_to_send(self) -> list:
         """
         Getting messages with a flag ['All'] from selected mail folder
         :return :list of tuples (uid, email_info) get from selected mail folder

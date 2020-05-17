@@ -4,7 +4,7 @@ import os
 
 class Log:
     def __init__(self, module):
-        self.abs_path_to_log = os.path.abspath('src/Logs')
+        self.abs_path_to_log = os.path.abspath('Logs')
         self.error_log_file = open("{}/errors.log".format(self.abs_path_to_log), "a")
         self.access_log_file = open("{}/access.log".format(self.abs_path_to_log), "a")
         self.module = module

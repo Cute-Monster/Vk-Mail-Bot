@@ -1,7 +1,11 @@
 import vk_api
 from vk_api.utils import get_random_id
-from ImapClient import ImapClient
-from Logger import Log
+# from ImapClient import ImapClient
+# from Logger import Log
+# from SqlLiteModule import SqlLiteModule
+from vkBot.Logger.Logger import Log
+from vkBot.ImapClient.ImapClient import ImapClient
+from vkBot.SqlModule.SqlLiteModule import SqlLiteModule
 
 
 class VkNotifier:
@@ -21,28 +25,29 @@ class VkNotifier:
         self.log_file = Log(self.__module__)
         self.mail_client = ImapClient()
         self.new_inbox_email = []
-        self.seen_emails_uid = []
         self.counter = 0
+        self.db = SqlLiteModule()
+        self.db.check_table()
 
     def check_for_new_messages(self):
         """
         Checking the mailbox for new messages. If found unseen for the bot,
         then notify chat and dev about this message by sending message text of unseen message
+        and adding it to the database
         :return:
         """
         new_messages_sent = False
         self.new_inbox_email = self.mail_client.get_array_of_messages_to_send()
+        self.new_inbox_email.reverse()
         if not self.new_inbox_email:
             self.no_new_messages()
         else:
             for uid, message_text in self.new_inbox_email:
                 # print(f"uid : {uid} : in seen {uid in self.seen_emails_uid}")
-                if uid in self.seen_emails_uid:
-                    continue
-                else:
-                    new_messages_sent = True
+                if self.db.check_for_message(message_text)[0] == 0:
                     self.notify(message_text)
-                    self.seen_emails_uid.append(uid)
+                    self.db.add_message(uid, message_text)
+                    new_messages_sent = True
             if new_messages_sent:
                 self.log_file.log_all(3, "Found unseen messages")
                 self.notify("Filter the INBOX folder please ;-)")
@@ -67,11 +72,10 @@ class VkNotifier:
         :param text: message text
         :return:
         """
-        if self.send_only_to_dev:
-            self.send_message_to_dev(text)
-        else:
-            self.send_message_to_dev(text)
+        if not self.send_only_to_dev:
             self.send_message_to_chat(text)
+
+        self.send_message_to_dev(text)
 
     def login_throw_user(self):
         """
@@ -115,4 +119,3 @@ class VkNotifier:
             random_id=get_random_id(),
             message=text
         )
-

@@ -1,7 +1,8 @@
 from time import sleep
 from datetime import datetime
-from VkNotifier import VkNotifier
-from Logger import Log
+# from VkNotifier import VkNotifier
+# from Logger import Log
+import vkBot
 
 
 if __name__ == '__main__':
@@ -20,10 +21,11 @@ if __name__ == '__main__':
                                       "\t---> ")))
     """
 
-    log = Log(__name__)
-    vk_notifier = VkNotifier(login_method=1,
-                             chat_to_send=1,
-                             send_only_to_dev=False)
+    log = vkBot.Log(__name__)
+
+    vk_notifier = vkBot.VkNotifier(login_method=1,
+                                   chat_to_send=1,
+                                   send_only_to_dev=True)
     log.log_all(3, "Successfully started")
     vk_notifier.send_message_to_dev(text="Successfully started")
     sleep_university_time = int(600)
@@ -46,7 +48,13 @@ if __name__ == '__main__':
                 log.log_all(3, f"Going to sleep for {sleep_university_time}s")
                 sleep(sleep_university_time)
                 # print("after sleep")
+        except KeyboardInterrupt:
+            vk_notifier.send_message_to_dev(f"KeyboardInterrupt")
+            vk_notifier.mail_client.logout_from_mail()
+            vk_notifier.db.close_connection()
+            exit(0)
         except Exception as exception:
+            # print(exception)
             exception_counter += 1
             log.log_all(1, exception)
             vk_notifier.send_message_to_dev(f"Critical in main:\n{str(exception)}")
@@ -54,5 +62,6 @@ if __name__ == '__main__':
             if exception_counter == 5:
                 vk_notifier.send_message_to_dev("Exception counter limit reached!\nExiting :-(")
                 vk_notifier.mail_client.logout_from_mail()
+                vk_notifier.db.close_connection()
                 log.log_all(1, "Terminating bot")
                 exit(0)

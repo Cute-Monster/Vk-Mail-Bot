@@ -40,65 +40,81 @@
 #     # for value in test:
 #     #     print(test.get(value))
 #     # print("Hi", test.__len__())
-import pyzmail
-from imapclient import IMAPClient
-
-HOST = 'imap.gmail.com'
-USERNAME = 'runtov.constantin@gmail.com'
-PASSWORD = '4apFMCRyB8a4pTD'
-
-server = IMAPClient(HOST)
-server.login(USERNAME, PASSWORD)
-server.select_folder('INBOX')
+# import pyzmail
+# from imapclient import IMAPClient
+#
+# HOST = 'imap.gmail.com'
+# USERNAME = 'runtov.constantin@gmail.com'
+# PASSWORD = '4apFMCRyB8a4pTD'
+#
+# server = IMAPClient(HOST)
+# server.login(USERNAME, PASSWORD)
+# server.select_folder('INBOX')
+#
+# if __name__ == '__main__':
+#     # print(__name__)
+#     # Start IDLE mode
+#     server.idle()
+#     print("Connection is now in IDLE mode, send yourself an email or quit with ^c")
+#
+#     while True:
+#         try:
+#             # Wait for up to 30 seconds for an IDLE response
+#             # test = []
+#             responses = server.idle_check(timeout=30)
+#             # print(responses)
+#             tests = server.fetch(responses[0][0], 'RFC822')
+#             print(tests)
+#             parsed_message = pyzmail.PyzMessage.factory(responses[0][0][b'RFC822'])
+#             final_mail_inf = "You Have A New Email In The Mailbox:\n" \
+#                              "From: {} <{}>\n" \
+#                              "Subject: {}".format(parsed_message.get_address('From')[0],
+#                                                   parsed_message.get_address('From')[1],
+#                                                   parsed_message.get_subject())
+#             print(final_mail_inf)
+#             # Be sure to change the uid num
+#             # for item in responses:
+#             #     print(item)
+#             #     for uid, items in server.fetch(item[0], 'RFC822]'):
+#             #         print(uid, items, sep=' : ')
+#             #         parsed_message = pyzmail.PyzMessage.factory(items[b'RFC822'])  # Be sure to change the uid num
+#             #         final_mail_inf = "You Have A New Email In The Mailbox:\n" \
+#             #                          "From: {} <{}>\n" \
+#             #                          "Subject: {}".format(parsed_message.get_address('From')[0],
+#             #                                               parsed_message.get_address('From')[1],
+#             #                                               parsed_message.get_subject())
+#             #         print(final_mail_inf)
+#             # print(test)
+#             # hello = server.fetch(test, 'RFC822]')
+#             # print(hello)
+#             # for uid, items in hello.items():
+#             #     parsed_message = pyzmail.PyzMessage.factory(items[b'RFC822'])  # Be sure to change the uid num
+#             #     final_mail_inf = "You Have A New Email In The Mailbox:\n" \
+#             #                      "From: {} <{}>\n" \
+#             #                      "Subject: {}".format(parsed_message.get_address('From')[0],
+#             #                                           parsed_message.get_address('From')[1],
+#             #                                           parsed_message.get_subject())
+#             #     print(final_mail_inf)
+#             print("Server sent:", responses if responses else "nothing")
+#         except KeyboardInterrupt:
+#             break
+#
+#     server.idle_done()
+#     print("\nIDLE mode done")
+#     server.logout()
 
 if __name__ == '__main__':
-    # print(__name__)
-    # Start IDLE mode
-    server.idle()
-    print("Connection is now in IDLE mode, send yourself an email or quit with ^c")
+    import sqlite3
 
-    while True:
-        try:
-            # Wait for up to 30 seconds for an IDLE response
-            # test = []
-            responses = server.idle_check(timeout=30)
-            # print(responses)
-            tests = server.fetch(responses[0][0], 'RFC822')
-            print(tests)
-            parsed_message = pyzmail.PyzMessage.factory(responses[0][0][b'RFC822'])
-            final_mail_inf = "You Have A New Email In The Mailbox:\n" \
-                             "From: {} <{}>\n" \
-                             "Subject: {}".format(parsed_message.get_address('From')[0],
-                                                  parsed_message.get_address('From')[1],
-                                                  parsed_message.get_subject())
-            print(final_mail_inf)
-            # Be sure to change the uid num
-            # for item in responses:
-            #     print(item)
-            #     for uid, items in server.fetch(item[0], 'RFC822]'):
-            #         print(uid, items, sep=' : ')
-            #         parsed_message = pyzmail.PyzMessage.factory(items[b'RFC822'])  # Be sure to change the uid num
-            #         final_mail_inf = "You Have A New Email In The Mailbox:\n" \
-            #                          "From: {} <{}>\n" \
-            #                          "Subject: {}".format(parsed_message.get_address('From')[0],
-            #                                               parsed_message.get_address('From')[1],
-            #                                               parsed_message.get_subject())
-            #         print(final_mail_inf)
-            # print(test)
-            # hello = server.fetch(test, 'RFC822]')
-            # print(hello)
-            # for uid, items in hello.items():
-            #     parsed_message = pyzmail.PyzMessage.factory(items[b'RFC822'])  # Be sure to change the uid num
-            #     final_mail_inf = "You Have A New Email In The Mailbox:\n" \
-            #                      "From: {} <{}>\n" \
-            #                      "Subject: {}".format(parsed_message.get_address('From')[0],
-            #                                           parsed_message.get_address('From')[1],
-            #                                           parsed_message.get_subject())
-            #     print(final_mail_inf)
-            print("Server sent:", responses if responses else "nothing")
-        except KeyboardInterrupt:
-            break
+    conn = sqlite3.connect("src/vkBot/bot.db")
+    cursor = conn.cursor()
+    cursor.execute("""
+    DELETE FROM SeenMessages
+    """)
+    conn.commit()
+    cursor.execute("""
+    SELECT mess_text FROM SeenMessages
+    """)
+    print(cursor.fetchone())
+    conn.close()
 
-    server.idle_done()
-    print("\nIDLE mode done")
-    server.logout()

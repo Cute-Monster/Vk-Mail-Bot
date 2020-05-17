@@ -1,0 +1,137 @@
+2020-05-16 23:57:07.021046 | SqlLiteModule | INFO | Table exists.
+2020-05-16 23:57:07.021806 | __main__ | INFO | Successfully started
+2020-05-16 23:57:07.640862 | VkNotifier | INFO | No unseen messages
+2020-05-16 23:57:07.641502 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 00:07:17.035331 | __main__ | INFO | Going to sleep for 3180s
+2020-05-17 01:00:00.089806 | __main__ | INFO | Going to sleep for 3600s
+2020-05-17 02:00:00.123828 | __main__ | INFO | Going to sleep for 3600s
+2020-05-17 03:00:00.221082 | __main__ | INFO | Going to sleep for 3600s
+2020-05-17 04:00:00.322517 | __main__ | INFO | Going to sleep for 3600s
+2020-05-17 05:00:00.423951 | __main__ | INFO | Going to sleep for 3600s
+2020-05-17 06:00:00.525381 | __main__ | INFO | Going to sleep for 3600s
+2020-05-17 07:00:00.593225 | __main__ | INFO | Going to sleep for 3600s
+2020-05-17 08:00:01.383456 | ImapClient | INFO | Successfully reconnected.
+2020-05-17 08:00:01.501377 | VkNotifier | INFO | No unseen messages
+2020-05-17 08:00:01.502273 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 08:10:01.709790 | VkNotifier | INFO | No unseen messages
+2020-05-17 08:10:01.710850 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 08:20:01.920351 | VkNotifier | INFO | No unseen messages
+2020-05-17 08:20:01.921290 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 08:30:02.072311 | VkNotifier | INFO | No unseen messages
+2020-05-17 08:30:02.073238 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 08:40:02.184457 | VkNotifier | INFO | No unseen messages
+2020-05-17 08:40:02.787271 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 08:50:02.997537 | VkNotifier | INFO | No unseen messages
+2020-05-17 08:50:02.998466 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 09:00:03.170861 | VkNotifier | INFO | No unseen messages
+2020-05-17 09:00:03.171797 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 09:10:03.295387 | VkNotifier | INFO | No unseen messages
+2020-05-17 09:10:03.296314 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 09:20:03.452822 | VkNotifier | INFO | No unseen messages
+2020-05-17 09:20:03.453750 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 09:30:03.666629 | VkNotifier | INFO | No unseen messages
+2020-05-17 09:30:03.667560 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 09:40:03.876901 | VkNotifier | INFO | No unseen messages
+2020-05-17 09:40:04.403481 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 09:50:04.614822 | VkNotifier | INFO | No unseen messages
+2020-05-17 09:50:04.615747 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 10:00:04.824612 | VkNotifier | INFO | No unseen messages
+2020-05-17 10:00:04.825543 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 10:10:05.008195 | VkNotifier | INFO | No unseen messages
+2020-05-17 10:10:05.009119 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 10:20:05.126531 | VkNotifier | INFO | No unseen messages
+2020-05-17 10:20:05.127464 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 10:30:05.244001 | VkNotifier | INFO | No unseen messages
+2020-05-17 10:30:05.244936 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 10:40:05.365131 | VkNotifier | INFO | No unseen messages
+2020-05-17 10:40:05.845735 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 10:50:05.986612 | VkNotifier | INFO | No unseen messages
+2020-05-17 10:50:05.987542 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 11:00:06.109012 | VkNotifier | INFO | No unseen messages
+2020-05-17 11:00:06.109940 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 11:10:06.226339 | VkNotifier | INFO | No unseen messages
+2020-05-17 11:10:06.227268 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 11:20:06.353396 | VkNotifier | INFO | No unseen messages
+2020-05-17 11:20:06.354320 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 11:30:06.491728 | VkNotifier | INFO | No unseen messages
+2020-05-17 11:30:06.492666 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 11:40:06.676361 | VkNotifier | INFO | No unseen messages
+2020-05-17 11:40:07.226528 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 11:50:07.367788 | VkNotifier | INFO | No unseen messages
+2020-05-17 11:50:07.368713 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 12:00:07.499369 | VkNotifier | INFO | No unseen messages
+2020-05-17 12:00:07.500594 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 12:10:07.693075 | VkNotifier | INFO | No unseen messages
+2020-05-17 12:10:07.694005 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 12:20:07.895121 | VkNotifier | INFO | No unseen messages
+2020-05-17 12:20:07.896048 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 12:30:08.109316 | VkNotifier | INFO | No unseen messages
+2020-05-17 12:30:08.110418 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 12:40:08.319515 | VkNotifier | INFO | No unseen messages
+2020-05-17 12:40:08.881548 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 12:50:09.082273 | VkNotifier | INFO | No unseen messages
+2020-05-17 12:50:09.083204 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 13:00:09.193514 | VkNotifier | INFO | No unseen messages
+2020-05-17 13:00:09.194444 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 13:10:09.358381 | VkNotifier | INFO | No unseen messages
+2020-05-17 13:10:09.359312 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 13:20:09.541692 | VkNotifier | INFO | No unseen messages
+2020-05-17 13:20:09.542623 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 13:30:09.739532 | VkNotifier | INFO | No unseen messages
+2020-05-17 13:30:09.740633 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 13:40:09.953104 | VkNotifier | INFO | No unseen messages
+2020-05-17 13:40:10.482453 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 13:50:10.697113 | VkNotifier | INFO | No unseen messages
+2020-05-17 13:50:10.698050 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 14:00:10.880115 | VkNotifier | INFO | No unseen messages
+2020-05-17 14:00:10.881172 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 14:10:11.094955 | VkNotifier | INFO | No unseen messages
+2020-05-17 14:10:11.095880 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 14:20:11.309336 | VkNotifier | INFO | No unseen messages
+2020-05-17 14:20:11.310373 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 14:30:11.455117 | VkNotifier | INFO | No unseen messages
+2020-05-17 14:30:11.456038 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 14:40:11.593104 | VkNotifier | INFO | No unseen messages
+2020-05-17 14:40:12.071051 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 14:50:12.225582 | VkNotifier | INFO | No unseen messages
+2020-05-17 14:50:12.226510 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 15:00:12.344539 | VkNotifier | INFO | No unseen messages
+2020-05-17 15:00:12.345468 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 15:10:12.462888 | VkNotifier | INFO | No unseen messages
+2020-05-17 15:10:12.463822 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 15:20:12.596344 | VkNotifier | INFO | No unseen messages
+2020-05-17 15:20:12.597284 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 15:30:12.729726 | VkNotifier | INFO | No unseen messages
+2020-05-17 15:30:12.730804 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 15:40:12.874603 | VkNotifier | INFO | No unseen messages
+2020-05-17 15:40:13.384479 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 15:50:13.553621 | VkNotifier | INFO | No unseen messages
+2020-05-17 15:50:13.554549 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 16:00:13.758752 | VkNotifier | INFO | No unseen messages
+2020-05-17 16:00:13.759688 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 16:10:13.917832 | VkNotifier | INFO | No unseen messages
+2020-05-17 16:10:13.918765 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 16:20:14.032791 | VkNotifier | INFO | No unseen messages
+2020-05-17 16:20:14.033724 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 16:30:14.146661 | VkNotifier | INFO | No unseen messages
+2020-05-17 16:30:14.147591 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 16:40:14.263870 | VkNotifier | INFO | No unseen messages
+2020-05-17 16:40:14.917959 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 16:50:15.127547 | VkNotifier | INFO | No unseen messages
+2020-05-17 16:50:15.128473 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 17:00:15.337335 | VkNotifier | INFO | No unseen messages
+2020-05-17 17:00:15.338269 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 17:10:15.551469 | VkNotifier | INFO | No unseen messages
+2020-05-17 17:10:15.552402 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 17:20:15.750947 | VkNotifier | INFO | No unseen messages
+2020-05-17 17:20:15.751881 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 17:30:15.875957 | VkNotifier | INFO | No unseen messages
+2020-05-17 17:30:15.876889 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 17:40:15.990441 | VkNotifier | INFO | No unseen messages
+2020-05-17 17:40:16.629067 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 18:04:57.274796 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-17 18:04:57.275506 | __main__ | INFO | Successfully started
+2020-05-17 18:04:57.919076 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-17 18:04:57.919725 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 18:05:06.709183 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-17 18:05:06.711025 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
