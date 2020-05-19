@@ -1,1 +1,33 @@
 2020-05-17 08:00:00.688353 | ImapClient | CRITICAL | command: SEARCH => socket error: EOF
+2020-05-18 01:59:05.070892 | __main__ | CRITICAL | unable to open database file
+2020-05-18 19:37:49.310083 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 19:37:50.173132 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 19:37:50.650558 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 19:37:51.184223 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 19:37:51.706058 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 19:37:52.517521 | __main__ | CRITICAL | Terminating bot
+2020-05-18 20:19:32.249761 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:19:32.834580 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:19:33.425677 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:19:33.996093 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:19:34.591764 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:19:35.455439 | __main__ | CRITICAL | Terminating bot
+2020-05-18 20:19:56.845411 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:19:57.655277 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:19:58.455474 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:19:59.273815 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:20:00.080839 | __main__ | CRITICAL | 'NoneType' object has no attribute 'get_payload'
+2020-05-18 20:20:00.962964 | __main__ | CRITICAL | Terminating bot
+2020-05-18 20:53:15.550044 | __main__ | CRITICAL | 'bytes' object has no attribute 'policy'
+2020-05-18 20:53:16.119378 | __main__ | CRITICAL | 'bytes' object has no attribute 'policy'
+2020-05-18 20:53:16.846686 | __main__ | CRITICAL | 'bytes' object has no attribute 'policy'
+2020-05-18 20:53:17.354674 | __main__ | CRITICAL | 'bytes' object has no attribute 'policy'
+2020-05-18 20:53:18.484216 | __main__ | CRITICAL | 'bytes' object has no attribute 'policy'
+2020-05-18 20:53:19.327139 | __main__ | CRITICAL | Terminating bot
+2020-05-18 20:54:16.691528 | __main__ | CRITICAL | 'bytes' object has no attribute 'policy'
+2020-05-18 22:50:21.388605 | __main__ | CRITICAL | list index out of range
+2020-05-18 22:50:21.947534 | __main__ | CRITICAL | list index out of range
+2020-05-18 22:50:22.439575 | __main__ | CRITICAL | list index out of range
+2020-05-18 22:50:22.998429 | __main__ | CRITICAL | list index out of range
+2020-05-18 22:50:23.491728 | __main__ | CRITICAL | list index out of range
+2020-05-18 22:50:24.320007 | __main__ | CRITICAL | Terminating bot

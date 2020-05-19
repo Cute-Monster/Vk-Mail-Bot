@@ -106,7 +106,7 @@
 if __name__ == '__main__':
     import sqlite3
 
-    conn = sqlite3.connect("src/vkBot/bot.db")
+    conn = sqlite3.connect("vkBot/SqlModule/bot.db")
     cursor = conn.cursor()
     cursor.execute("""
     DELETE FROM SeenMessages

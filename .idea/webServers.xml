@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="bb2ac7ee-df81-43ad-a3e0-4b375fbabb5e" name="pi@192.168.1.123:22 password (1)">
+      <webServer id="e9031025-1068-4456-8fb6-ef65d939ab7d" name="gmail_vk_bot_Rasp">
         <fileTransfer rootFolder="/home/pi" accessType="SFTP" host="192.168.1.123" port="22" sshConfigId="1b2d453e-db2b-425a-a475-0c529f5242ed" sshConfig="pi@192.168.1.123:22 password" />
       </webServer>
     </option>

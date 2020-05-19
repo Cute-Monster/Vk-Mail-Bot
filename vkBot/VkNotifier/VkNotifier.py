@@ -1,8 +1,5 @@
 import vk_api
 from vk_api.utils import get_random_id
-# from ImapClient import ImapClient
-# from Logger import Log
-# from SqlLiteModule import SqlLiteModule
 from vkBot.Logger.Logger import Log
 from vkBot.ImapClient.ImapClient import ImapClient
 from vkBot.SqlModule.SqlLiteModule import SqlLiteModule

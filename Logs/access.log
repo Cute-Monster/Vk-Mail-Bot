@@ -135,3 +135,533 @@
 2020-05-17 18:04:57.919725 | __main__ | INFO | Going to sleep for 600s
 2020-05-17 18:05:06.709183 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
 2020-05-17 18:05:06.711025 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-17 18:26:37.126576 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-17 18:26:37.127289 | __main__ | INFO | Successfully started
+2020-05-17 18:26:37.755809 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-17 18:26:37.756452 | __main__ | INFO | Going to sleep for 600s
+2020-05-17 18:26:43.550654 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-17 18:26:43.552388 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-17 18:36:15.343693 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-17 18:36:15.345671 | __main__ | INFO | Successfully started
+2020-05-17 18:36:15.966474 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-17 18:36:15.967103 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 01:53:17.352988 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 01:53:17.353710 | __main__ | INFO | Successfully started
+2020-05-18 01:53:17.932970 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 01:53:17.933651 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 01:53:18.326466 | __main__ | INFO | Night phase started.
+2020-05-18 01:53:18.327364 | __main__ | INFO | Going to sleep for 420s
+2020-05-18 01:53:28.338581 | __main__ | INFO | Going to sleep for 420s
+2020-05-18 01:53:38.350100 | __main__ | INFO | Going to sleep for 420s
+2020-05-18 01:55:52.651016 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 01:55:52.651745 | __main__ | INFO | Successfully started
+2020-05-18 01:55:53.241869 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 01:55:53.242500 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 01:55:59.050042 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 01:55:59.051515 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 01:56:00.749274 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 01:56:00.750107 | __main__ | INFO | Successfully started
+2020-05-18 01:56:01.319004 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 01:56:01.320259 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 01:56:02.593807 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 01:56:02.595009 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 01:56:24.793064 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 01:56:24.793506 | __main__ | INFO | Successfully started
+2020-05-18 01:56:25.445707 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 01:56:25.446376 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 01:56:25.823036 | __main__ | INFO | Night phase started.
+2020-05-18 01:56:25.823934 | __main__ | INFO | Going to sleep for 240s
+2020-05-18 01:56:41.058203 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 01:56:41.058639 | __main__ | INFO | Successfully started
+2020-05-18 01:56:41.617410 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 01:56:41.618067 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 01:56:42.017709 | __main__ | INFO | Night phase started.
+2020-05-18 01:56:42.018606 | __main__ | INFO | Going to sleep for 240s
+2020-05-18 01:56:52.029965 | __main__ | INFO | Going to sleep for 240s
+2020-05-18 01:57:02.041333 | __main__ | INFO | Going to sleep for 180s
+2020-05-18 01:57:12.052734 | __main__ | INFO | Going to sleep for 180s
+2020-05-18 01:57:22.064162 | __main__ | INFO | Going to sleep for 180s
+2020-05-18 01:57:32.075571 | __main__ | INFO | Going to sleep for 180s
+2020-05-18 01:57:42.086968 | __main__ | INFO | Going to sleep for 180s
+2020-05-18 01:57:52.098380 | __main__ | INFO | Going to sleep for 180s
+2020-05-18 01:58:02.109741 | __main__ | INFO | Going to sleep for 120s
+2020-05-18 01:58:12.121233 | __main__ | INFO | Going to sleep for 120s
+2020-05-18 01:58:21.306010 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 01:58:21.306450 | __main__ | INFO | Successfully started
+2020-05-18 01:58:21.840011 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 01:58:21.840683 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 01:58:22.281358 | __main__ | INFO | Night phase started.
+2020-05-18 01:58:22.282242 | __main__ | INFO | Going to sleep for 120s
+2020-05-18 01:58:32.293443 | __main__ | INFO | Going to sleep for 120s
+2020-05-18 01:58:42.304813 | __main__ | INFO | Going to sleep for 120s
+2020-05-18 01:58:52.316180 | __main__ | INFO | Going to sleep for 120s
+2020-05-18 01:59:05.069480 | vkBot.ImapClient.ImapClient | INFO | Successfully reconnected.
+2020-05-18 01:59:05.354040 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 01:59:05.355154 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 01:59:44.043424 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 01:59:44.044425 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 02:02:09.416084 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 02:02:09.416821 | __main__ | INFO | Successfully started
+2020-05-18 02:02:09.950975 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 02:02:09.951660 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 02:02:10.458759 | __main__ | INFO | Night phase started.
+2020-05-18 02:02:10.459639 | __main__ | INFO | Going to sleep for 3480s
+2020-05-18 02:02:20.471071 | __main__ | INFO | Going to sleep for 3480s
+2020-05-18 02:02:30.482446 | __main__ | INFO | Going to sleep for 3480s
+2020-05-18 02:02:40.493819 | __main__ | INFO | Going to sleep for 3480s
+2020-05-18 02:02:50.505206 | __main__ | INFO | Going to sleep for 3480s
+2020-05-18 02:03:01.173347 | vkBot.ImapClient.ImapClient | INFO | Successfully reconnected.
+2020-05-18 02:03:01.175420 | vkBot.SqlModule.SqlLiteModule | INFO | Reconnected.
+2020-05-18 02:03:01.350944 | __main__ | INFO | Wake up from long sleep phase.
+2020-05-18 02:03:01.460316 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 02:03:01.461415 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 02:03:57.449424 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 02:03:57.450579 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 02:08:18.219320 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 02:08:18.220126 | __main__ | INFO | Successfully started
+2020-05-18 02:08:18.743536 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 02:08:18.744210 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 02:08:19.166021 | __main__ | INFO | Night phase started.
+2020-05-18 02:08:19.166929 | __main__ | INFO | Going to sleep for 3120s
+2020-05-18 02:10:01.880779 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 02:10:01.882854 | __main__ | INFO | Successfully started
+2020-05-18 02:10:02.399830 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 02:10:02.400505 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 02:10:02.842157 | __main__ | INFO | Night phase started.
+2020-05-18 02:10:02.843038 | __main__ | INFO | Going to sleep for 3000s
+2020-05-18 02:15:56.542564 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 02:15:56.544217 | __main__ | INFO | Successfully started
+2020-05-18 02:15:56.963404 | __main__ | INFO | Night phase started.
+2020-05-18 02:15:57.538121 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 02:15:57.539498 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 02:15:57.540337 | __main__ | INFO | Going to sleep for 2700s
+2020-05-18 03:00:09.463293 | __main__ | INFO | Going to sleep for 3600s
+2020-05-18 04:00:00.564722 | __main__ | INFO | Going to sleep for 3600s
+2020-05-18 05:00:00.666146 | __main__ | INFO | Going to sleep for 3600s
+2020-05-18 06:00:00.733280 | __main__ | INFO | Going to sleep for 3600s
+2020-05-18 07:00:00.773291 | __main__ | INFO | Going to sleep for 3600s
+2020-05-18 08:00:01.654655 | vkBot.ImapClient.ImapClient | INFO | Successfully reconnected.
+2020-05-18 08:00:01.656751 | vkBot.SqlModule.SqlLiteModule | INFO | Reconnected.
+2020-05-18 08:00:02.212150 | __main__ | INFO | Wake up from long sleep phase.
+2020-05-18 08:00:02.329789 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 08:00:02.330410 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 08:10:02.477440 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 08:10:02.478405 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 08:20:02.893981 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 08:20:02.894941 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 08:30:03.104431 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 08:30:03.105399 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 08:40:03.295924 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 08:40:03.296890 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 08:50:03.533494 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 08:50:04.121622 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 09:00:04.320552 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 09:00:04.321510 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 09:10:04.497557 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 09:10:04.498521 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 09:20:04.670132 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 09:20:04.671099 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 09:30:05.187378 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 09:30:05.188336 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 09:40:05.398058 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 09:40:05.399028 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 09:50:05.591149 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 09:50:06.235998 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 10:00:06.447466 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 10:00:06.448430 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 10:10:06.620470 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 10:10:06.621432 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 10:20:06.805832 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 10:20:06.806802 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 10:30:06.983372 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 10:30:06.984334 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 10:40:07.160444 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 10:40:07.161480 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 10:50:07.339615 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 10:50:07.967041 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 11:00:08.172060 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 11:00:08.173119 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 11:10:08.604776 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 11:10:08.605740 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 11:20:09.001974 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 11:20:09.003110 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 11:30:09.182256 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 11:30:09.183312 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 11:40:09.399544 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 11:40:09.400514 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 11:50:09.609182 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 11:50:10.100389 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 12:00:10.300044 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 12:00:10.301010 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 12:10:10.481443 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 12:10:10.482556 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 12:20:10.911736 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 12:20:10.912870 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 12:30:11.304488 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 12:30:11.305451 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 12:40:11.717294 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 12:40:11.718261 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 12:50:12.173175 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 12:50:12.786903 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 13:00:12.990099 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 13:00:12.991060 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 13:12:32.674880 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 13:12:32.676925 | __main__ | INFO | Successfully started
+2020-05-18 13:12:33.393973 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 13:12:33.394604 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 13:22:42.644105 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 13:22:42.645195 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 13:32:43.156537 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 13:32:43.157492 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 13:42:43.601843 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 13:42:43.602806 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 13:52:44.104964 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 13:52:44.105926 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 14:02:44.343654 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 14:02:44.847009 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 14:12:45.364707 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 14:12:45.365760 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 14:22:45.882297 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 14:22:45.883261 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 14:32:46.391170 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 14:32:46.392125 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 14:42:46.893701 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 14:42:46.894662 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 14:52:47.402057 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 14:52:47.403087 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 15:02:47.637680 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 15:02:48.440870 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 15:12:48.676940 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 15:12:48.677896 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 15:22:49.168857 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 15:22:49.169818 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 15:32:49.627852 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 15:32:49.628809 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 15:42:50.139521 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 15:42:50.140478 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 15:52:50.591949 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 15:52:50.592915 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 16:02:50.826750 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 16:02:51.419550 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 16:12:51.911970 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 16:12:51.912923 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 16:22:52.337506 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 16:22:52.338476 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 16:32:52.855056 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 16:32:52.856018 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 16:42:53.363697 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 16:42:53.364654 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 16:52:53.796908 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 16:52:53.797867 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 17:02:54.001159 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 17:02:54.715356 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 17:12:55.224176 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 17:12:55.225250 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 17:22:55.377731 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 17:22:55.378699 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 17:32:55.618159 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 17:32:55.619121 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 17:42:56.122845 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 17:42:56.123801 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 17:52:56.641413 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 17:52:56.642373 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 18:02:56.872797 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 18:02:57.364770 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 18:12:57.513609 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 18:12:57.514561 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 18:22:57.750323 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 18:22:57.751281 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 18:32:57.998254 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 18:32:57.999202 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 18:42:58.237094 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 18:42:58.238059 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 18:52:58.425555 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 18:52:58.426521 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 19:02:58.680747 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 19:02:59.169930 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 19:12:59.406328 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 19:12:59.407272 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 19:22:59.652222 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 19:22:59.653183 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 19:32:59.836414 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 19:32:59.837384 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 19:37:48.075427 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 19:37:48.078500 | __main__ | INFO | Successfully started
+2020-05-18 19:37:52.501852 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox :(
+2020-05-18 19:37:52.516298 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 20:19:30.914611 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 20:19:30.915352 | __main__ | INFO | Successfully started
+2020-05-18 20:19:35.453486 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 20:19:35.454648 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 20:19:55.554065 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 20:19:55.554806 | __main__ | INFO | Successfully started
+2020-05-18 20:20:00.960250 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 20:20:00.961761 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 20:20:13.592162 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 20:20:13.593019 | __main__ | INFO | Successfully started
+2020-05-18 20:39:56.099413 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 20:39:56.100112 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 20:40:13.580858 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 20:40:13.581594 | __main__ | INFO | Successfully started
+2020-05-18 20:53:09.407337 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 20:53:09.408033 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 20:53:14.354123 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 20:53:14.354820 | __main__ | INFO | Successfully started
+2020-05-18 20:53:19.324491 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 20:53:19.326073 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 20:53:42.964966 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 20:53:42.965718 | __main__ | INFO | Successfully started
+2020-05-18 21:11:01.746916 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:11:01.747616 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:11:59.540944 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:11:59.541658 | __main__ | INFO | Successfully started
+2020-05-18 21:12:00.140536 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 21:12:00.141645 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 21:12:03.629876 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:12:03.631087 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:12:30.515811 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:12:30.516534 | __main__ | INFO | Successfully started
+2020-05-18 21:12:31.692527 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 21:12:31.693074 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 21:12:32.229241 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 21:13:08.584689 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:13:08.585900 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:13:35.500522 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:13:35.500947 | __main__ | INFO | Successfully started
+2020-05-18 21:15:11.743326 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:15:11.744558 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:16:01.366434 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:16:01.366939 | __main__ | INFO | Successfully started
+2020-05-18 21:23:05.962892 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:23:05.963598 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:23:27.944704 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:23:27.945137 | __main__ | INFO | Successfully started
+2020-05-18 21:34:56.084420 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:34:56.085119 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:35:18.750928 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:35:18.751380 | __main__ | INFO | Successfully started
+2020-05-18 21:36:00.498232 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:36:00.499468 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:36:40.865371 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:36:40.865810 | __main__ | INFO | Successfully started
+2020-05-18 21:47:20.188220 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:47:20.188912 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:47:30.334744 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:47:30.335485 | __main__ | INFO | Successfully started
+2020-05-18 21:47:36.243012 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 21:47:36.243335 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 21:47:36.740613 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 21:47:51.803558 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:47:51.804429 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:48:13.226760 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:48:13.227509 | __main__ | INFO | Successfully started
+2020-05-18 21:48:14.516446 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 21:48:14.516736 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 21:48:14.965277 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 21:48:29.763725 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:48:29.764909 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:48:54.444251 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:48:54.444980 | __main__ | INFO | Successfully started
+2020-05-18 21:48:55.574289 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 21:48:55.574895 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 21:49:06.639822 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:49:06.641026 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 21:49:16.731978 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 21:49:16.732518 | __main__ | INFO | Successfully started
+2020-05-18 21:59:57.919367 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 21:59:57.920084 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:00:03.813877 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:00:03.814589 | __main__ | INFO | Successfully started
+2020-05-18 22:00:04.983297 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 22:00:04.984000 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:00:39.162252 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:00:39.163931 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:01:02.556717 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:01:02.557452 | __main__ | INFO | Successfully started
+2020-05-18 22:10:17.009637 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:10:17.010349 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:10:48.067376 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:10:48.068110 | __main__ | INFO | Successfully started
+2020-05-18 22:12:58.036406 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:12:58.037634 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:13:02.895117 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:13:02.895863 | __main__ | INFO | Successfully started
+2020-05-18 22:22:44.039667 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:22:44.040410 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:22:48.649932 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:22:48.650644 | __main__ | INFO | Successfully started
+2020-05-18 22:22:51.064431 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 22:22:51.064984 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 22:22:51.245702 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:24:21.593220 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:24:21.594422 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:24:23.429501 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:24:23.430227 | __main__ | INFO | Successfully started
+2020-05-18 22:24:24.545080 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 22:24:24.546148 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:24:36.448691 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:24:36.449872 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:25:03.411354 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:25:03.412111 | __main__ | INFO | Successfully started
+2020-05-18 22:25:04.507196 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 22:25:04.507785 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:25:23.629936 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:25:23.631124 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:26:05.468675 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:26:05.469432 | __main__ | INFO | Successfully started
+2020-05-18 22:26:06.665792 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 22:26:06.666078 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 22:26:07.126293 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:26:16.600432 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:26:16.601630 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:27:24.425791 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:27:24.426540 | __main__ | INFO | Successfully started
+2020-05-18 22:27:25.706059 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 22:27:25.706748 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 22:27:26.215887 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:28:01.154613 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:28:01.155815 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:29:08.316382 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:29:08.317111 | __main__ | INFO | Successfully started
+2020-05-18 22:35:31.170567 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:35:31.171425 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:35:47.175795 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:35:47.176541 | __main__ | INFO | Successfully started
+2020-05-18 22:46:11.220351 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:46:11.221058 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:49:25.448306 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:49:25.449036 | __main__ | INFO | Successfully started
+2020-05-18 22:49:26.524277 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 22:49:26.524806 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 22:49:26.998350 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:49:39.898873 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:49:39.900029 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:50:20.604573 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:50:20.605324 | __main__ | INFO | Successfully started
+2020-05-18 22:50:24.318000 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:50:24.319166 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:50:44.913841 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:50:44.914576 | __main__ | INFO | Successfully started
+2020-05-18 22:54:01.416506 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:54:01.417752 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:54:17.434433 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:54:17.435144 | __main__ | INFO | Successfully started
+2020-05-18 22:54:20.209725 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 22:54:20.210253 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 22:54:20.379313 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:54:27.242796 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:54:27.243972 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:55:28.304403 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:55:28.305140 | __main__ | INFO | Successfully started
+2020-05-18 22:55:29.396847 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 22:55:29.397374 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 22:55:29.866916 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:55:33.933542 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:55:33.934696 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:57:48.109904 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:57:48.110651 | __main__ | INFO | Successfully started
+2020-05-18 22:57:51.042596 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 22:57:51.043156 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 22:57:51.225094 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 22:57:52.173971 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:57:52.175145 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 22:58:22.465262 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 22:58:22.465722 | __main__ | INFO | Successfully started
+2020-05-18 22:58:26.548178 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 22:58:26.549331 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:00:21.768645 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:00:21.769368 | __main__ | INFO | Successfully started
+2020-05-18 23:00:22.911091 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 23:00:22.911608 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 23:00:23.357177 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:00:33.469718 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:00:33.470886 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:01:38.812551 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:01:38.813289 | __main__ | INFO | Successfully started
+2020-05-18 23:01:39.804755 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 23:01:39.805282 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 23:01:40.275206 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:01:43.585928 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:01:43.587081 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:02:02.371101 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:02:02.371889 | __main__ | INFO | Successfully started
+2020-05-18 23:02:03.171049 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 23:02:03.172176 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:02:18.728200 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:02:18.729399 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:02:32.217388 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:02:32.218114 | __main__ | INFO | Successfully started
+2020-05-18 23:02:32.982806 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 23:02:32.983483 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:02:46.097135 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:02:46.098326 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:02:47.996199 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:02:47.996640 | __main__ | INFO | Successfully started
+2020-05-18 23:02:48.781674 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 23:02:48.782937 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:02:52.737970 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:02:52.739162 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:03:20.146808 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:03:20.147565 | __main__ | INFO | Successfully started
+2020-05-18 23:05:02.553432 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:05:02.554690 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:05:11.143121 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:05:11.143856 | __main__ | INFO | Successfully started
+2020-05-18 23:05:13.320420 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 23:05:13.320962 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 23:05:13.504438 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:05:21.912152 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:05:21.913480 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:07:04.671906 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:07:04.672764 | __main__ | INFO | Successfully started
+2020-05-18 23:07:05.751599 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 23:07:05.752130 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 23:07:06.205596 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:07:21.850026 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:07:21.851201 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:08:33.373555 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:08:33.374000 | __main__ | INFO | Successfully started
+2020-05-18 23:08:35.604438 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 23:08:35.604972 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 23:08:35.797515 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:09:00.132016 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:09:00.133398 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:09:21.377686 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:09:21.378425 | __main__ | INFO | Successfully started
+2020-05-18 23:09:22.403995 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 23:09:22.404522 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 23:09:22.819596 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:10:05.071294 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:10:05.072618 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:10:16.500593 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:10:16.501076 | __main__ | INFO | Successfully started
+2020-05-18 23:12:33.268311 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:12:33.269534 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:12:53.307753 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:12:53.308493 | __main__ | INFO | Successfully started
+2020-05-18 23:12:54.328570 | vkBot.SqlModule.SqlLiteModule | INFO | Message added.
+2020-05-18 23:12:54.329104 | vkBot.VkNotifier.VkNotifier | INFO | Found unseen messages
+2020-05-18 23:12:54.728134 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:13:16.155329 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:13:16.156542 | vkBot.SqlModule.SqlLiteModule | INFO | Connection closed.
+2020-05-18 23:29:37.754502 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:29:37.755250 | __main__ | INFO | Successfully started
+2020-05-18 23:29:38.379685 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 23:29:38.380335 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:29:39.285286 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-18 23:29:39.286534 | vkBot.SqlModule.SqlLiteModule | INFO | Connection to database closed.
+2020-05-18 23:30:46.997191 | vkBot.SqlModule.SqlLiteModule | INFO | Table exists.
+2020-05-18 23:30:47.000214 | __main__ | INFO | Successfully started
+2020-05-18 23:30:47.592929 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 23:30:47.593556 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:41:00.700223 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 23:41:00.701178 | __main__ | INFO | Going to sleep for 600s
+2020-05-18 23:51:00.926823 | vkBot.VkNotifier.VkNotifier | INFO | No unseen messages
+2020-05-18 23:51:00.927775 | __main__ | INFO | Going to sleep for 600s
+2020-05-19 00:01:01.008866 | __main__ | INFO | Night phase started.
+2020-05-19 00:01:01.696048 | vkBot.ImapClient.ImapClient | INFO | Logout from mailbox.
+2020-05-19 00:01:01.696718 | vkBot.SqlModule.SqlLiteModule | INFO | Connection to database closed.
+2020-05-19 00:01:01.697114 | __main__ | INFO | Going to sleep for 3540s
+2020-05-19 01:00:00.798175 | __main__ | INFO | Going to sleep for 3600s
+2020-05-19 02:00:00.899587 | __main__ | INFO | Going to sleep for 3600s
+2020-05-19 03:00:00.929020 | __main__ | INFO | Going to sleep for 3600s

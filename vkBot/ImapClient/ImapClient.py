@@ -1,10 +1,11 @@
 import imapclient
 import pyzmail
-# from Logger import Log
 from vkBot.Logger.Logger import Log
+
 
 class ImapClient:
     def __init__(self):
+        self.image = open("img", "wb")
         self.imap_link = 'imap.gmail.com'
         # self.mail_login = 'runtov.constantin@gmail.com'
         # self.mail_password = '4apFMCRyB8a4pTD'
@@ -12,8 +13,7 @@ class ImapClient:
         self.mail_password = '01012019'
         self.server = imapclient.IMAPClient(self.imap_link)
         self.login_to_mailbox()
-        self.new_messages = None
-        self.list_of_seen_uids = []
+        self.new_messages = list
         self.final_list_to_send = []
         self.log_file = Log(self.__module__)
         self.select_inbox_folder()
@@ -44,32 +44,39 @@ class ImapClient:
         :return:
         """
         self.final_list_to_send.clear()
+
         try:
             self.new_messages = self.server.search(['All'])
             # print(self.new_messages, sep="\n")
             for uid, msg in self.server.fetch(self.new_messages, 'RFC822').items():
-                parsed_message = pyzmail.PyzMessage.factory(msg[b'RFC822'])  # Be sure to change the uid num
+                message_factory = pyzmail.PyzMessage.factory(msg[b'RFC822'])  # Be sure to change the uid num
+                content_type = message_factory.smart_parser(message_factory).get_content_type()
+                msg_text = ""
+                if message_factory.text_part is None:
+                    msg_text += "No text provided :-("
+                else:
+                    msg_text_part = message_factory.text_part.get_payload().decode(
+                        message_factory.text_part.charset
+                    ).splitlines()
+                    for i in range(0, len(msg_text_part) - 2):
+                        if msg_text_part[i + 1].startswith("От:") or msg_text_part[i + 1].startswith("From:") \
+                                or (message_factory.smart_parser(message_factory).get('Delivered-To')
+                                    in msg_text_part[i + 1]):
+                            break
+                        msg_text += msg_text_part[i] + "\n"
+                # 'Yes' if message_factory.text_part is None else 'No'
                 final_mail_inf = "You Have A New Email In The Mailbox:\n" \
-                                 "From: {} <{}>\n" \
-                                 "Subject: {}\n" \
-                                 "Text: \n{}".format(parsed_message.get_address('From')[0],
-                                                     parsed_message.get_address('From')[1],
-                                                     parsed_message.get_subject(),
-                                                     parsed_message.text_part.get_payload().decode(
-                                                         parsed_message.text_part.charset))
+                                 f"From: {message_factory.smart_parser(message_factory).get('From')}\n" \
+                                 f"Subject: {message_factory.get_subject()}\n" \
+                                 f"Text: {msg_text if msg_text else 'No'}\n" \
+                                 f"Attachments: {'Yes' if content_type == 'multipart/mixed' else 'No'}"
+
                 # print(uid)
                 self.final_list_to_send.append((uid, final_mail_inf))
         except imapclient.IMAPClient.Error as imap_error:
             self.log_file.log_all(1, str(imap_error))
-            # self.server = imapclient.IMAPClient(self.imap_link)
             self.reconnect()
             self.get_all_messages()
-
-    def is_in_list_of_seen(self, value) -> bool:
-        for uid in self.list_of_seen_uids:
-            if uid == value:
-                return True
-        return False
 
     def reconnect(self):
         """
@@ -98,6 +105,5 @@ class ImapClient:
         Logout from the mailbox
         :return:
         """
-        self.server.close_folder()
         self.server.logout()
-        self.log_file.log_all(3, "Logout from mailbox :(")
+        self.log_file.log_all(3, "Logout from mailbox.")
