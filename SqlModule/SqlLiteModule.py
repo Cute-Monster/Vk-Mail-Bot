@@ -12,7 +12,7 @@ class SqlLiteModule:
         self.path_to_db = abspath("db/bot.db")
         self.connection = sqlite3.connect(self.path_to_db)
         self.cursor = self.connection.cursor()
-        self.seed = "shit"
+        self.seed = "xW3'(SH\\ZD^<Y?rNMTz2+c$3b'L-a<{=8Y9<L5mg[6\\8_.';'Q?'?DYkMr:j"
 
     def check_table(self):
         """
@@ -69,10 +69,8 @@ class SqlLiteModule:
                     SELECT mess_text FROM SeenMessages 
                     WHERE mess_text = '{hashlib.md5(bytes(message_text + self.seed, 'utf8')).hexdigest()}')
         """)
-        result = self.cursor.fetchone()
-        # print("HUI: ", result)
-        print(result)
-        return result[0]
+        result = self.cursor.fetchone()[0]
+        return result
 
     def reconnect(self):
         """

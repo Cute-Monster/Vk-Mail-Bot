@@ -28,8 +28,8 @@ if __name__ == '__main__':
                              send_only_to_dev=True
                              )
     log.log_all(3, "Successfully started")
-    vk_notifier.send_message_to_dev(text="Successfully started")
-    sleep_university_time = int(15)
+    vk_notifier.send_message_to_dev(text="Successfully started ;-)")
+    sleep_university_time = int(600)
     sleep_summer_time = int(86400)
     sleep_night_time = None
     sleep_months = [7, 8]
@@ -44,7 +44,6 @@ if __name__ == '__main__':
                     long_sleep = True
                     log.log_all(3, "Summer phase started.")
                     vk_notifier.send_message_to_dev("Summer phase started.")
-                    # vk_notifier.mail_client.logout_from_mail()
                     vk_notifier.db.close_connection()
                     vk_notifier.reset_counter()
 
@@ -54,22 +53,18 @@ if __name__ == '__main__':
             elif datetime.now().hour in sleep_hours:
                 if not long_sleep:
                     long_sleep = True
-                    # print("Night phase started.")
                     log.log_all(3, "Night phase started.")
                     vk_notifier.send_message_to_dev("Night phase started.")
-                    # vk_notifier.mail_client.logout_from_mail()
                     vk_notifier.db.close_connection()
                     vk_notifier.reset_counter()
 
                 sleep_night_time = 3600-(datetime.now().minute*60)
                 log.log_all(3, f"Going to sleep for {sleep_night_time}s")
                 sleep(sleep_night_time-datetime.now().second)
-                # sleep(10)
 
             else:
                 if long_sleep:
                     long_sleep = False
-                    # vk_notifier.mail_client.reconnect()
                     vk_notifier.db.reconnect()
                     vk_notifier.send_message_to_dev("Wake up from long sleep phase.")
                     log.log_all(3, "Wake up from long sleep phase.")
@@ -77,24 +72,19 @@ if __name__ == '__main__':
                 vk_notifier.check_for_new_messages()
                 log.log_all(3, f"Going to sleep for {sleep_university_time}s")
                 sleep(sleep_university_time)
-                # print("after sleep")
         except KeyboardInterrupt:
             vk_notifier.send_message_to_dev("KeyboardInterrupt")
-            # vk_notifier.mail_client.logout_from_mail()
             vk_notifier.db.close_connection()
             exit(0)
 
         except Exception as exception:
-            # print(exception)
             exception_counter += 1
             log.log_all(1, exception)
             vk_notifier.send_message_to_dev("Critical in main!\n"
                                             "Exception:\n"
                                             f"{str(exception)}")
-            # vk_notifier.mail_client.reconnect()
             if exception_counter == 5:
                 vk_notifier.send_message_to_dev("Exception counter limit reached!\nExiting :-(")
-                # vk_notifier.mail_client.logout_from_mail()
                 vk_notifier.db.close_connection()
                 log.log_all(1, "Terminating bot")
                 exit(0)

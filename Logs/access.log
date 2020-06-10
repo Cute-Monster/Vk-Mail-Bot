@@ -3103,3 +3103,13 @@
 2020-06-10 22:38:39.852347 | __main__ | INFO | Going to sleep for 15s
 2020-06-10 22:38:55.735119 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
 2020-06-10 22:38:55.736035 | __main__ | INFO | Going to sleep for 15s
+2020-06-10 23:21:21.228028 | SqlModule.SqlLiteModule | INFO | Table exists.
+2020-06-10 23:21:21.228476 | __main__ | INFO | Successfully started
+2020-06-10 23:21:22.738480 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-10 23:21:22.739325 | __main__ | INFO | Going to sleep for 15s
+2020-06-10 23:21:38.571770 | SqlModule.SqlLiteModule | INFO | Connection to database closed.
+2020-06-10 23:27:00.086262 | SqlModule.SqlLiteModule | INFO | Table exists.
+2020-06-10 23:27:00.086727 | __main__ | INFO | Successfully started
+2020-06-10 23:27:01.434195 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-10 23:27:01.435152 | __main__ | INFO | Going to sleep for 600s
+2020-06-10 23:27:07.906632 | SqlModule.SqlLiteModule | INFO | Connection to database closed.

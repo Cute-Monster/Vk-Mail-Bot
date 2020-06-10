@@ -1,2 +1,5 @@
 # Project exclude paths
 /venv/
+./venv.tar.xz
+/Logs/test.log
+/vkBot/

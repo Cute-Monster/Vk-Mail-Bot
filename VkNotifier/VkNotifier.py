@@ -3,17 +3,25 @@ from vk_api.utils import get_random_id
 from Logger.Logger import Log
 from ImapClient.ImapClient import ImapClient
 from SqlModule.SqlLiteModule import SqlLiteModule
+import pprint
 import sentry_sdk
 sentry_sdk.init("https://eca61270fe5e4ceeb1046ad58ad7333e@o402810.ingest.sentry.io/5264523")
 
-import pprint
 
 class VkNotifier:
-    def __init__(self, login_method: int, chat_to_send: int, send_only_to_dev: bool):
+    """
+    Class representing the VK bot
+    """
+
+    def __init__(self,
+                 login_method: int,
+                 chat_to_send: int,
+                 send_only_to_dev: bool
+                 ):
         self.user_login = ""
         self.user_password = ""
         self.token = '1e415cfb00820bd2be0c44ce3085998e5d73b441fa68cc0edbe152ae5b3babc75f043ca93e441ea7bc52d'
-        self.vk_session = vk_api.VkApi(token=self.token, scope='messages')
+        self.vk_session = vk_api.VkApi(token=self.token)
         self.vk = self.vk_session.get_api()
         (self.login_throw_user() if login_method == 2 else self.login_throw_group())
         self.sleep_time = int(15)
@@ -22,7 +30,7 @@ class VkNotifier:
         self.group_chat_ids = {1: 1,
                                2: 3}  # Mr.Robot -> 1, Test -> 3
         self.group_chat_id = self.group_chat_ids.get(chat_to_send)
-        self.log_file = Log(self.__class__)
+        self.log_file = Log(class_name=self.__class__)
         self.mail_client = ImapClient()
         self.new_inbox_email = []
         self.counter = 0
@@ -36,6 +44,7 @@ class VkNotifier:
         and adding it to the database
         :return:
         """
+
         new_messages_sent = False
         self.new_inbox_email = self.mail_client.get_array_of_messages_to_send()
         self.new_inbox_email.reverse()
@@ -43,8 +52,6 @@ class VkNotifier:
             self.no_new_messages()
         else:
             for item in self.new_inbox_email:
-                # print(f"uid : {uid} : in seen {uid in self.seen_emails_uid}")
-                # pprint.pprint(item)
                 if self.db.check_for_message(item['msg_text']) == 0:
                     self.notify(item['msg_text'])
                     self.db.add_message(item['uid'], item['msg_text'])
@@ -61,6 +68,7 @@ class VkNotifier:
         Log and send a message to dev if no new messages have been found
         :return:
         """
+
         self.counter += 1
         self.log_file.log_all(3, "No unseen messages")
         if self.counter > 6:
@@ -68,6 +76,11 @@ class VkNotifier:
             self.reset_counter()
 
     def reset_counter(self):
+        """
+        Reset counter of No unseen messages log
+        :return:
+        """
+
         self.counter = 0
 
     def notify(self, text):
@@ -76,6 +89,7 @@ class VkNotifier:
         :param text: message text
         :return:
         """
+
         try:
             if not self.send_only_to_dev:
                 self.send_message_to_chat(text)
@@ -91,6 +105,7 @@ class VkNotifier:
         Login to vk throw user account
         :return:
         """
+
         self.vk_session = vk_api.VkApi(self.user_login, self.user_password)
         try:
             self.vk = self.vk_session.auth(token_only=True)
@@ -102,7 +117,10 @@ class VkNotifier:
         Login to vk through group bot token
         :return:
         """
-        self.vk_session = vk_api.VkApi(token=self.token, scope='messages')
+
+        self.vk_session = vk_api.VkApi(
+            token=self.token
+        )
         self.vk = self.vk_session.get_api()
 
     def send_message_to_dev(self, text):
@@ -111,6 +129,7 @@ class VkNotifier:
         :param text: message text
         :return:
         """
+
         self.vk.messages.send(
             user_id=self.dev_vk_id,
             random_id=get_random_id(),
@@ -123,6 +142,7 @@ class VkNotifier:
         :param text: message text
         :return:
         """
+
         self.vk.messages.send(
             peer_id='200000000{}'.format(self.group_chat_id),
             random_id=get_random_id(),
