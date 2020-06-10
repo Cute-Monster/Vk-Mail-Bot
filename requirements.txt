@@ -1,0 +1,4 @@
+vk-api
+imapclient
+pyzmail36
+sentry_sdk

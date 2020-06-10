@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="gmail_vk_bot_Rasp">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Raspberry_Home">
     <serverData>
-      <paths name="Copy of project-level server 'gmail_vk_bot_Rasp'">
+      <paths name="Raspberry_Home (1)">
         <serverdata>
           <mappings>
-            <mapping deploy="/gmail_vk_bot" local="$PROJECT_DIR$" />
+            <mapping deploy="/home/pi/gmail_vk_bot" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
-            <excludedPath path="/gmail_vk_bot/venv" />
             <excludedPath local="true" path="$PROJECT_DIR$/venv" />
-          </excludedPaths>
-        </serverdata>
-      </paths>
-      <paths name="gmail_vk_bot_Rasp">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/gmail_vk_bot" local="$PROJECT_DIR$" />
-          </mappings>
-          <excludedPaths>
-            <excludedPath path="/gmail_vk_bot/venv" />
-            <excludedPath local="true" path="$PROJECT_DIR$/venv" />
+            <excludedPath path="/home/pi/gmail_vk_bot/venv" />
           </excludedPaths>
         </serverdata>
       </paths>

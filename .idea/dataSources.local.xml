@@ -13,10 +13,6 @@
           <node kind="schema" qname="@" />
         </introspection-scope>
       </schema-mapping>
-      <ssh-properties>
-        <enabled>false</enabled>
-        <ssh-config-id>1b2d453e-db2b-425a-a475-0c529f5242ed</ssh-config-id>
-      </ssh-properties>
     </data-source>
   </component>
 </project>
