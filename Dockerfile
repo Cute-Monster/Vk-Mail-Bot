@@ -4,6 +4,12 @@ RUN mkdir gmail_vk_bot
 
 WORKDIR /home/pi/gmail_vk_bot
 
+ENV Mail_Link=
+ENV Mail_Login=
+ENV Mail_Password=
+ENV DB_Seed=
+ENV Vk_Token=
+
 COPY ./Logs/ ./Logs
 COPY ./Logger ./Logger
 COPY ./ImapClient ./ImapClient

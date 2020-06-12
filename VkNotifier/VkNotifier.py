@@ -3,7 +3,7 @@ from vk_api.utils import get_random_id
 from Logger.Logger import Log
 from ImapClient.ImapClient import ImapClient
 from SqlModule.SqlLiteModule import SqlLiteModule
-import pprint
+import os
 from datetime import datetime
 import sentry_sdk
 sentry_sdk.init("https://eca61270fe5e4ceeb1046ad58ad7333e@o402810.ingest.sentry.io/5264523")
@@ -21,7 +21,7 @@ class VkNotifier:
                  ):
         self.user_login = ""
         self.user_password = ""
-        self.token = '1e415cfb00820bd2be0c44ce3085998e5d73b441fa68cc0edbe152ae5b3babc75f043ca93e441ea7bc52d'
+        self.token = os.getenv("Vk_Token")
         self.vk_session = vk_api.VkApi(token=self.token)
         self.vk = self.vk_session.get_api()
         (self.login_throw_user() if login_method == 2 else self.login_throw_group())

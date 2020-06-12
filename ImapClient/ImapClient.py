@@ -1,3 +1,5 @@
+import os
+
 import imapclient
 import pyzmail
 from Logger.Logger import Log
@@ -11,9 +13,9 @@ class ImapClient:
     """
 
     def __init__(self):
-        self.imap_link = 'imap.gmail.com'
-        self.mail_login = "gruppa1802@gmail.com"
-        self.mail_password = "01012019"
+        self.imap_link = os.getenv("Mail_Link")
+        self.mail_login = os.getenv("Mail_Login")
+        self.mail_password = os.getenv("Mail_Password")
         self.final_list_to_send = []
         self.log_file = Log(self.__class__)
 
