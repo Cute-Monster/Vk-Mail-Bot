@@ -6,6 +6,10 @@ sentry_sdk.init("https://eca61270fe5e4ceeb1046ad58ad7333e@o402810.ingest.sentry.
 
 
 class ImapClient:
+    """
+    Class representing connection to mailbox
+    """
+
     def __init__(self):
         self.imap_link = 'imap.gmail.com'
         self.mail_login = "gruppa1802@gmail.com"
@@ -18,6 +22,7 @@ class ImapClient:
         Fetch,parse and add the parsed message with his (uid, email_info) to list of messages from a selected folder
         :return:
         """
+
         self.final_list_to_send.clear()
 
         try:

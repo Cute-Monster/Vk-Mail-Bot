@@ -3,3 +3,6 @@
 ./venv.tar.xz
 /Logs/test.log
 /vkBot/
+/forTests.py
+/.scannerwork/
+/attachments/

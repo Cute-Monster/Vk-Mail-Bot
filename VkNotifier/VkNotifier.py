@@ -4,6 +4,7 @@ from Logger.Logger import Log
 from ImapClient.ImapClient import ImapClient
 from SqlModule.SqlLiteModule import SqlLiteModule
 import pprint
+from datetime import datetime
 import sentry_sdk
 sentry_sdk.init("https://eca61270fe5e4ceeb1046ad58ad7333e@o402810.ingest.sentry.io/5264523")
 
@@ -71,7 +72,7 @@ class VkNotifier:
 
         self.counter += 1
         self.log_file.log_all(3, "No unseen messages")
-        if self.counter > 6:
+        if datetime.now().minute == 0 or self.counter >= 6:
             self.send_message_to_dev("No unseen messages\nGoing to sleep :-(")
             self.reset_counter()
 
