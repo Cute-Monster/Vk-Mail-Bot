@@ -45,10 +45,13 @@ class ImapClient:
                         for i in range(0, len(msg_text_part) - 1):
                             try:
                                 if msg_text_part[i + 1].startswith("От:") \
+                                        or msg_text_part[i+1].startswith("> От:") \
                                         or msg_text_part[i + 1].startswith("From:") \
                                         or msg_text_part[i + 1].__contains__(
                                     f"<{message_factory.smart_parser(message_factory).get('Delivered-To')}>") \
-                                        or msg_text_part[i + 1].__contains__("[image: "):
+                                        or msg_text_part[i + 1].__contains__("[image: ") \
+                                        or msg_text_part[i+1].startswith("Отправлено с iPhone") \
+                                        or msg_text_part[i+1].__contains__("Начало переадресованного сообщения"):
                                     msg_text += msg_text_part[i] + " "
                                     break
                                 else:

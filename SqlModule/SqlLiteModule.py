@@ -23,8 +23,8 @@ class SqlLiteModule:
         self.cursor.execute(f"""
         SELECT EXISTS(SELECT name FROM sqlite_master WHERE type='table' AND name='SeenMessages') 
         """)
-        result = self.cursor.fetchone()[0]
-        if result == 0:
+        result = self.cursor.fetchone()
+        if result[0] == 0:
             self.create_table()
         else:
             self.log_file.log_all(3, "Table exists.")
@@ -34,7 +34,6 @@ class SqlLiteModule:
         Creates the table SeenMessages
         :return:
         """
-
         self.cursor.execute("""
         CREATE TABLE SeenMessages(
         uid integer not null ,
@@ -83,7 +82,6 @@ class SqlLiteModule:
         Reconnect to database
         :return:
         """
-
         self.connection = sqlite3.connect(self.path_to_db)
         self.cursor = self.connection.cursor()
         self.log_file.log_all(3, "Reconnected to database.")

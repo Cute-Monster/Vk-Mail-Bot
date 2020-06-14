@@ -3343,3 +3343,593 @@
 2020-06-12 02:00:00.596418 | __main__ | INFO | Going to sleep for 3600s
 2020-06-12 03:00:00.632451 | __main__ | INFO | Going to sleep for 3600s
 2020-06-12 04:00:00.686397 | __main__ | INFO | Going to sleep for 3600s
+2020-06-12 05:00:00.716424 | __main__ | INFO | Going to sleep for 3600s
+2020-06-12 06:00:00.776409 | __main__ | INFO | Going to sleep for 3600s
+2020-06-12 07:00:00.877666 | __main__ | INFO | Going to sleep for 3600s
+2020-06-12 08:00:00.917613 | SqlModule.SqlLiteModule | INFO | Reconnected to database.
+2020-06-12 08:00:01.382197 | __main__ | INFO | Wake up from long sleep phase.
+2020-06-12 08:00:02.283092 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 08:00:02.284194 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 08:10:03.189928 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 08:10:03.191059 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 08:20:04.094635 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 08:20:04.095911 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 08:30:05.345256 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 08:30:05.346372 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 08:40:06.469105 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 08:40:06.469998 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 08:50:07.799025 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 08:50:07.800165 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 09:00:10.683328 | SqlModule.SqlLiteModule | INFO | Message added.
+2020-06-12 09:00:12.415129 | SqlModule.SqlLiteModule | INFO | Message added.
+2020-06-12 09:00:12.415994 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | Found unseen messages
+2020-06-12 09:00:12.583641 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 09:10:14.634273 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 09:10:14.634740 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 09:20:16.881501 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 09:20:16.881965 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 09:30:19.273875 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 09:30:19.274343 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 09:40:21.274110 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 09:40:21.274577 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 09:50:23.622219 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 09:50:23.622938 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 10:00:25.890875 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 10:00:25.891573 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 10:10:28.239764 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 10:10:28.637266 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 10:20:31.067673 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 10:20:31.068135 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 10:30:34.618723 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 10:30:34.619453 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 10:40:37.190687 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 10:40:37.191154 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 10:50:39.572434 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 10:50:39.572904 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 11:00:42.187205 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 11:00:42.187664 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 11:10:45.411761 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 11:10:45.412225 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 11:20:47.677940 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 11:20:48.068437 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 11:30:50.691861 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 11:30:50.692327 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 11:40:53.019833 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 11:40:53.020524 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 11:50:55.098454 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 11:50:55.098924 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 12:00:57.561155 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 12:00:57.561716 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 12:10:59.783898 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 12:10:59.784358 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 12:21:02.228373 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 12:21:02.228845 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 12:31:04.471166 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 12:31:04.851681 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 12:41:07.117407 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 12:41:07.117873 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 12:51:09.173508 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 12:51:09.173975 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 13:01:11.725443 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 13:01:11.726066 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 13:11:13.976601 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 13:11:13.977064 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 13:21:16.504095 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 13:21:16.504561 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 13:31:18.743987 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 13:31:18.744451 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 13:41:21.408265 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 13:41:21.945442 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 13:51:24.102860 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 13:51:24.103327 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 14:01:26.338326 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 14:01:26.338788 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 14:11:28.663145 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 14:11:28.663607 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 14:21:30.955314 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 14:21:30.956238 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 14:31:33.472032 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 14:31:33.472497 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 14:41:35.911757 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 14:41:35.912225 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 14:51:38.291383 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 14:51:38.895384 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 15:01:41.301591 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 15:01:41.302063 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 15:11:43.439583 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 15:11:43.440289 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 15:21:45.474131 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 15:21:45.474843 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 15:31:47.390835 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 15:31:47.391311 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 15:41:50.044465 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 15:41:50.044918 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 15:51:52.322980 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 15:51:52.323701 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 16:01:55.129132 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 16:01:55.614135 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 16:11:58.250320 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 16:11:58.250790 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 16:22:00.855413 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 16:22:00.856025 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 16:32:08.350886 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 16:32:08.351348 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 16:42:10.966439 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 16:42:10.966900 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 16:52:13.675407 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 16:52:13.676015 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 17:02:14.777985 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 17:02:14.779140 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 17:16:07.945013 | SqlModule.SqlLiteModule | INFO | Table exists.
+2020-06-12 17:16:07.945468 | __main__ | INFO | Successfully started
+2020-06-12 17:16:09.049842 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 17:16:09.050687 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 17:26:09.940339 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 17:26:09.941541 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 17:36:10.998867 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 17:36:11.000041 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 17:46:11.988957 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 17:46:11.989859 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 17:56:13.112114 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 17:56:13.112996 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 18:06:14.012912 | <class 'ImapClient.ImapClient.ImapClient'> | CRITICAL | command: SELECT => System Error
+2020-06-12 18:06:17.582320 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 18:06:18.125904 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 18:16:20.513870 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 18:16:20.514753 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 18:26:21.427361 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 18:26:21.428246 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 18:36:22.528997 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 18:36:22.529877 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 18:46:24.048476 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 18:46:24.049656 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 18:56:30.060058 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 18:56:30.060985 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 19:06:31.216026 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 19:06:31.754233 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 19:16:33.176593 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 19:16:33.177846 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 19:26:39.126504 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 19:26:39.127481 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 19:36:45.141299 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 19:36:45.142499 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 19:46:45.987989 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 19:46:45.988905 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 19:56:52.444549 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 19:56:52.445519 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 20:06:58.717761 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 20:06:59.111273 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 20:17:05.385867 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 20:17:05.387088 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 20:27:06.420809 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 20:27:06.421796 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 20:37:07.614682 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 20:37:07.615591 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 20:47:08.762972 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 20:47:08.763882 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 20:57:09.602796 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 20:57:09.603989 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 21:07:11.005398 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 21:07:11.673028 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 21:17:12.642241 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 21:17:12.643429 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 21:27:13.899625 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 21:27:13.900547 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 21:37:15.125544 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 21:37:15.126919 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 21:47:16.592783 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 21:47:16.593683 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 21:57:17.527460 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 21:57:17.528387 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 22:07:18.948028 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 22:07:19.398285 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 22:17:20.474286 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 22:17:20.475200 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 22:27:21.519678 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 22:27:21.520872 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 22:37:22.889419 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 22:37:22.890311 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 22:47:23.959070 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 22:47:23.959989 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 22:57:25.226181 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 22:57:25.227127 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 23:07:26.233079 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 23:07:26.850008 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 23:17:27.622610 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 23:17:27.623518 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 23:27:28.635284 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 23:27:28.636383 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 23:37:29.592877 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 23:37:29.593774 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 23:47:30.978420 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 23:47:30.979340 | __main__ | INFO | Going to sleep for 600s
+2020-06-12 23:57:32.005603 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-12 23:57:32.006775 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 00:07:32.106359 | __main__ | INFO | Night phase started.
+2020-06-13 00:07:32.570267 | SqlModule.SqlLiteModule | INFO | Connection to database closed.
+2020-06-13 00:07:32.570704 | __main__ | INFO | Going to sleep for 3180s
+2020-06-13 01:00:00.636408 | __main__ | INFO | Going to sleep for 3600s
+2020-06-13 02:00:00.736383 | __main__ | INFO | Going to sleep for 3600s
+2020-06-13 03:00:00.776392 | __main__ | INFO | Going to sleep for 3600s
+2020-06-13 04:00:00.806383 | __main__ | INFO | Going to sleep for 3600s
+2020-06-13 05:00:00.907632 | __main__ | INFO | Going to sleep for 3600s
+2020-06-13 06:00:01.008878 | __main__ | INFO | Going to sleep for 3600s
+2020-06-13 07:00:00.086394 | __main__ | INFO | Going to sleep for 3600s
+2020-06-13 08:00:00.127527 | SqlModule.SqlLiteModule | INFO | Reconnected to database.
+2020-06-13 08:00:00.695371 | __main__ | INFO | Wake up from long sleep phase.
+2020-06-13 08:00:01.917647 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 08:00:02.066146 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 08:10:02.929535 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 08:10:02.930462 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 08:20:03.938289 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 08:20:03.939476 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 08:30:05.022326 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 08:30:05.023210 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 08:40:06.101929 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 08:40:06.102854 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 08:50:07.366054 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 08:50:07.366995 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 09:00:08.253270 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 09:00:08.689296 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 09:10:09.531836 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 09:10:09.532777 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 09:20:10.789590 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 09:20:10.790781 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 09:30:11.928717 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 09:30:11.929914 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 09:40:12.789924 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 09:40:12.790844 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 09:50:13.737702 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 09:50:13.738873 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 10:00:14.725901 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 10:00:15.271761 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 10:10:16.314452 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 10:10:16.315421 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 10:20:17.329129 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 10:20:17.330311 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 10:30:18.424785 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 10:30:18.425674 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 10:40:19.641041 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 10:40:19.641964 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 10:50:20.570987 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 10:50:20.571910 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 11:00:21.487783 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 11:00:22.026947 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 11:10:28.025650 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 11:10:28.027006 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 11:20:28.917012 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 11:20:28.918226 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 11:30:29.797798 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 11:30:29.798709 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 11:40:31.138893 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 11:40:31.140100 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 11:50:32.276675 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 11:50:32.277582 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 12:00:33.294880 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 12:00:33.749385 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 12:10:34.612769 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 12:10:34.613693 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 12:20:35.677693 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 12:20:35.678609 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 12:30:37.164364 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 12:30:37.165549 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 12:40:38.214296 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 12:40:38.215222 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 12:50:39.555148 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 12:50:39.556747 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 13:00:40.428979 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 13:00:40.875914 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 13:10:42.024439 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 13:10:42.025615 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 13:20:43.043260 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 13:20:43.044450 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 13:30:44.256804 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 13:30:44.257998 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 13:40:56.479367 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 13:40:56.480302 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 13:51:02.554750 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 13:51:02.555675 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 14:01:03.477640 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 14:01:03.974572 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 14:11:10.172048 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 14:11:10.173226 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 14:21:16.010569 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 14:21:16.011759 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 14:31:17.107843 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 14:31:17.109037 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 14:41:23.107526 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 14:41:23.108407 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 14:51:29.278958 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 14:51:29.280122 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 15:01:30.276958 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 15:01:30.757258 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 15:11:31.669374 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 15:11:31.670263 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 15:21:32.719845 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 15:21:32.720777 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 15:31:33.552719 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 15:31:33.553932 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 15:41:34.576407 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 15:41:34.577344 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 15:51:35.509821 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 15:51:35.511008 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 16:01:36.757426 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 16:01:37.387287 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 16:11:38.522452 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 16:11:38.523637 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 16:21:39.417010 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 16:21:39.417938 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 16:31:40.402067 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 16:31:40.403250 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 16:41:41.582686 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 16:41:41.583600 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 16:51:43.049873 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 16:51:43.050793 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 17:01:44.011639 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 17:01:44.567996 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 17:11:45.859652 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 17:11:45.860834 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 17:21:46.821170 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 17:21:46.822110 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 17:31:47.866521 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 17:31:47.867446 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 17:41:49.059917 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 17:41:49.060847 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 17:51:50.332437 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 17:51:50.333625 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 18:01:51.312741 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 18:01:51.781231 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 18:11:52.739914 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 18:11:52.740826 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 18:21:53.658994 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 18:21:53.659954 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 18:31:54.761566 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 18:31:54.762487 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 18:41:55.690571 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 18:41:55.691757 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 18:51:57.065892 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 18:51:57.066849 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 19:01:57.909060 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 19:01:58.346010 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 19:11:59.577010 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 19:11:59.578221 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 19:22:00.552772 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 19:22:00.553681 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 19:32:01.581166 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 19:32:01.582086 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 19:42:02.588416 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 19:42:02.589316 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 19:52:03.588155 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 19:52:03.589050 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 20:02:15.230626 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 20:02:23.699606 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 20:12:48.819222 | <class 'ImapClient.ImapClient.ImapClient'> | CRITICAL | socket error: EOF
+2020-06-13 20:12:50.607921 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 20:12:50.608404 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 20:23:06.944679 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 20:23:12.220105 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 20:33:21.992695 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 20:33:22.000795 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 20:43:22.893475 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 20:43:22.894036 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 20:53:24.229688 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 20:53:24.230661 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 21:03:25.230434 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 21:03:25.790587 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 21:13:27.074681 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 21:13:27.077184 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 21:23:28.099012 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 21:23:28.099845 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 21:33:30.061796 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 21:33:30.071528 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 21:40:12.453514 | SqlModule.SqlLiteModule | INFO | Table exists.
+2020-06-13 21:40:12.457181 | __main__ | INFO | Successfully started
+2020-06-13 21:40:13.793867 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 21:40:13.794450 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 21:50:18.224033 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 21:50:19.926494 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 22:00:20.886667 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 22:00:26.718905 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 22:10:27.567485 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 22:10:27.569339 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 22:20:28.840407 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 22:20:28.841494 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 22:30:29.743219 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 22:30:29.747251 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 22:40:30.562523 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 22:40:31.150456 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 22:50:32.051226 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 22:50:32.052062 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 23:00:33.052277 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 23:00:33.823172 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 23:10:44.965438 | <class 'ImapClient.ImapClient.ImapClient'> | CRITICAL | socket error: EOF
+2020-06-13 23:10:47.212099 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 23:10:47.212599 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 23:20:11.599800 | SqlModule.SqlLiteModule | INFO | Table exists.
+2020-06-13 23:20:11.602061 | __main__ | INFO | Successfully started
+2020-06-13 23:20:13.050725 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 23:20:13.051313 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 23:30:25.798261 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 23:30:25.799357 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 23:40:26.688360 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 23:40:26.689249 | __main__ | INFO | Going to sleep for 600s
+2020-06-13 23:50:27.651787 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-13 23:50:27.652710 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 00:00:27.753697 | __main__ | INFO | Night phase started.
+2020-06-14 00:00:28.259895 | SqlModule.SqlLiteModule | INFO | Connection to database closed.
+2020-06-14 00:00:28.260330 | __main__ | INFO | Going to sleep for 3600s
+2020-06-14 01:00:00.348052 | __main__ | INFO | Going to sleep for 3600s
+2020-06-14 02:00:22.189295 | __main__ | INFO | Going to sleep for 3600s
+2020-06-14 03:00:00.825446 | __main__ | INFO | Going to sleep for 3600s
+2020-06-14 04:00:01.091553 | __main__ | INFO | Going to sleep for 3600s
+2020-06-14 05:00:00.938887 | __main__ | INFO | Going to sleep for 3600s
+2020-06-14 06:00:01.040143 | __main__ | INFO | Going to sleep for 3600s
+2020-06-14 07:00:00.058100 | __main__ | INFO | Going to sleep for 3600s
+2020-06-14 08:00:00.079991 | SqlModule.SqlLiteModule | INFO | Reconnected to database.
+2020-06-14 08:00:00.658396 | __main__ | INFO | Wake up from long sleep phase.
+2020-06-14 08:00:01.639675 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 08:00:01.796035 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 08:10:02.814034 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 08:10:02.814936 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 08:20:03.756115 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 08:20:03.757042 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 08:30:04.613377 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 08:30:04.614294 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 08:40:05.622803 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 08:40:05.623968 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 08:50:06.891102 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 08:50:06.892024 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 09:00:07.762859 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 09:00:08.313684 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 09:10:09.179282 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 09:10:09.180206 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 09:20:10.371634 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 09:20:10.372798 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 09:30:11.353497 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 09:30:11.354515 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 09:40:12.573867 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 09:40:12.574789 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 09:50:13.645454 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 09:50:13.646376 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 10:00:14.523286 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 10:00:15.075524 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 10:10:15.993708 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 10:10:15.994621 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 10:20:17.042047 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 10:20:17.042952 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 10:30:18.317946 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 10:30:18.318880 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 10:40:19.292343 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 10:40:19.293234 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 10:50:20.192100 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 10:50:20.193032 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 11:00:21.393536 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 11:00:21.921002 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 11:10:23.087846 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 11:10:23.088790 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 11:20:23.881683 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 11:20:23.882613 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 11:30:25.268804 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 11:30:25.269986 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 11:40:26.330660 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 11:40:26.331581 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 11:50:27.756790 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 11:50:27.758150 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 12:00:28.953217 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 12:00:29.528701 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 12:10:30.395403 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 12:10:30.396378 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 12:20:31.236373 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 12:20:31.237737 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 12:30:32.274329 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 12:30:32.275252 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 12:40:33.120818 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 12:40:33.121995 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 12:50:34.356291 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 12:50:34.357213 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 13:00:35.153306 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 13:00:35.709954 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 13:10:36.848290 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 13:10:36.849208 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 13:20:37.675276 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 13:20:37.676218 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 13:30:38.986753 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 13:30:38.987941 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 13:40:40.126432 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 13:40:40.127360 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 13:50:41.051037 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 13:50:41.052208 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 14:00:41.984103 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 14:00:42.430377 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 14:10:43.452692 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 14:10:43.453837 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 14:20:44.409675 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 14:20:44.410595 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 14:30:45.303515 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 14:30:45.304443 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 14:40:46.158748 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 14:40:46.159942 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 14:50:47.124293 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 14:50:47.125206 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 15:00:47.965343 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 15:00:48.510911 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 15:10:49.539278 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 15:10:49.540177 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 15:20:50.384634 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 15:20:50.385811 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 15:30:51.670546 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 15:30:51.671467 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 15:40:52.619999 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 15:40:52.620927 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 15:50:53.802159 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 15:50:53.803080 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 16:00:54.738235 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 16:00:55.373948 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 16:10:56.324748 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 16:10:56.325675 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 16:20:57.075289 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 16:20:57.076487 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 16:30:58.118118 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 16:30:58.119356 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 16:40:59.137966 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 16:40:59.139206 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 16:51:00.424809 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 16:51:00.425730 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 17:01:01.322952 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 17:01:01.787386 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 17:11:02.920751 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 17:11:02.921635 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 17:21:03.842930 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 17:21:03.843866 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 17:31:04.880767 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 17:31:04.881777 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 17:41:05.840731 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 17:41:05.841649 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 17:51:06.615934 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 17:51:06.616866 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 18:01:07.620114 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 18:01:08.163019 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 18:01:42.402686 | __main__ | INFO | Successfully started
+2020-06-14 18:01:42.412191 | SqlModule.SqlLiteModule | INFO | Table exists.
+2020-06-14 18:01:43.752418 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 18:01:43.752886 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 18:11:58.149242 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 18:11:58.150112 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 18:21:59.163588 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 18:21:59.164484 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 18:32:00.308674 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 18:32:00.309581 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 18:42:01.154522 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 18:42:01.155425 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 18:52:02.243378 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 18:52:02.689843 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 19:02:03.459811 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 19:02:03.460879 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 19:12:04.519100 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 19:12:04.520045 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 19:22:05.415731 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 19:22:05.416947 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 19:32:06.503139 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 19:32:06.504086 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 19:42:07.480211 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 19:42:07.481580 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 19:52:08.399036 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 19:52:08.958256 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 20:02:09.953213 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 20:02:09.954110 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 20:12:10.969307 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 20:12:10.970226 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 20:22:11.917857 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 20:22:11.919031 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 20:32:12.971772 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 20:32:12.972653 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 20:42:13.968773 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 20:42:13.969736 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 20:52:17.407073 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 20:52:17.969954 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 21:02:19.061890 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 21:02:19.062778 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 21:12:21.612531 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 21:12:21.613409 | __main__ | INFO | Going to sleep for 600s
+2020-06-14 21:22:23.359849 | <class 'VkNotifier.VkNotifier.VkNotifier'> | INFO | No unseen messages
+2020-06-14 21:22:23.360918 | __main__ | INFO | Going to sleep for 600s
