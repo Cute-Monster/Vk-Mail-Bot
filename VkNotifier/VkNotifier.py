@@ -3,6 +3,7 @@ from vk_api.utils import get_random_id
 from Logger.Logger import Log
 from ImapClient.ImapClient import ImapClient
 from SqlModule.SqlLiteModule import SqlLiteModule
+from time import sleep
 import os
 from datetime import datetime
 import sentry_sdk
@@ -72,7 +73,7 @@ class VkNotifier:
 
         self.counter += 1
         self.log_file.log_all(3, "No unseen messages")
-        if datetime.now().minute == 0 or self.counter >= 6:
+        if datetime.now().minute == 0 or self.counter == 6:
             self.send_message_to_dev("No unseen messages\nGoing to sleep :-(")
             self.reset_counter()
 
@@ -96,8 +97,10 @@ class VkNotifier:
                 self.send_message_to_chat(text)
 
             self.send_message_to_dev(text)
+            self.log_file.log_all(3, "Notification sent")
         except vk_api.exceptions.ApiHttpError as api_http_error:
             self.log_file.log_all(2, str(api_http_error.response))
+            sleep(120)
             self.login_throw_group()
             self.notify(text)
 

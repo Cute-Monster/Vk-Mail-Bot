@@ -22,12 +22,11 @@ if __name__ == '__main__':
     """
 
     log = Log(__name__)
-
+    log.log_all(3, "Successfully started")
     vk_notifier = VkNotifier(login_method=1,
                              chat_to_send=1,
-                             send_only_to_dev=True
+                             send_only_to_dev=False
                              )
-    log.log_all(3, "Successfully started")
     vk_notifier.send_message_to_dev(text="Successfully started ;-)")
     sleep_university_time = int(600)
     sleep_summer_time = int(86400)
@@ -65,9 +64,9 @@ if __name__ == '__main__':
             else:
                 if long_sleep:
                     long_sleep = False
+                    log.log_all(3, "")
                     vk_notifier.db.reconnect()
                     vk_notifier.send_message_to_dev("Wake up from long sleep phase.")
-                    log.log_all(3, "Wake up from long sleep phase.")
 
                 vk_notifier.check_for_new_messages()
                 log.log_all(3, f"Going to sleep for {sleep_university_time}s")

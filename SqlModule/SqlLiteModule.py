@@ -1,4 +1,5 @@
-import os
+from os.path import abspath
+from os import getenv
 from Logger.Logger import Log
 import sqlite3
 import hashlib
@@ -8,11 +9,11 @@ sentry_sdk.init("https://eca61270fe5e4ceeb1046ad58ad7333e@o402810.ingest.sentry.
 
 class SqlLiteModule:
     def __init__(self):
-        self.log_file = Log(self.__module__)
-        self.path_to_db = os.path.abspath("db/bot.db")
+        self.log_file = Log(self.__class__)
+        self.path_to_db = abspath("db/bot.db")
         self.connection = sqlite3.connect(self.path_to_db)
         self.cursor = self.connection.cursor()
-        self.seed = os.getenv("DB_Seed")
+        self.seed = getenv("DB_Seed")
 
     def check_table(self):
         """
@@ -34,6 +35,7 @@ class SqlLiteModule:
         Creates the table SeenMessages
         :return:
         """
+
         self.cursor.execute("""
         CREATE TABLE SeenMessages(
         uid integer not null ,
@@ -82,6 +84,7 @@ class SqlLiteModule:
         Reconnect to database
         :return:
         """
+
         self.connection = sqlite3.connect(self.path_to_db)
         self.cursor = self.connection.cursor()
         self.log_file.log_all(3, "Reconnected to database.")
