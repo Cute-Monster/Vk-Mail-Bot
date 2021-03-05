@@ -4,7 +4,10 @@ from Logger.Logger import Log
 import sqlite3
 import hashlib
 import sentry_sdk
-sentry_sdk.init("https://eca61270fe5e4ceeb1046ad58ad7333e@o402810.ingest.sentry.io/5264523")
+
+sentry_sdk.init(
+    "https://eca61270fe5e4ceeb1046ad58ad7333e@o402810.ingest.sentry.io/5264523"
+)
 
 
 class SqlLiteModule:
@@ -21,11 +24,15 @@ class SqlLiteModule:
         :return:
         """
 
-        self.cursor.execute(f"""
-        SELECT EXISTS(SELECT name FROM sqlite_master WHERE type='table' AND name='SeenMessages') 
-        """)
+        self.cursor.execute(
+            f"""
+        SELECT EXISTS(
+            SELECT name FROM sqlite_master WHERE type='table' AND name='SeenMessages'
+        ) 
+        """
+        )
         result = self.cursor.fetchone()
-        if result[0] == 0:
+        if not result[0]:
             self.create_table()
         else:
             self.log_file.log_all(3, "Table exists.")
@@ -36,19 +43,18 @@ class SqlLiteModule:
         :return:
         """
 
-        self.cursor.execute("""
+        self.cursor.execute(
+            """
         CREATE TABLE SeenMessages(
-        uid integer not null ,
-        mess_text text not null 
+            uid integer not null ,
+            mess_text text not null 
         )
-        """)
+        """
+        )
         self.connection.commit()
-        self.log_file.log_all(3, f"Table SeenMessages created.")
+        self.log_file.log_all(3, "Table SeenMessages created.")
 
-    def add_message(self,
-                    uid: int,
-                    message_text: str
-                    ):
+    def add_message(self, uid: int, message_text: str):
         """
         Adds the message uid and text to table
         :param uid: Uid of the message
@@ -56,26 +62,32 @@ class SqlLiteModule:
         :return:
         """
 
-        self.cursor.execute(f"""
-        INSERT INTO SeenMessages VALUES ({uid}, '{hashlib.md5(bytes(message_text + self.seed, 'utf8')).hexdigest()}');
-        """)
+        self.cursor.execute(
+            f"""
+        INSERT INTO SeenMessages 
+        VALUES
+            ({uid}, '{hashlib.md5(
+            bytes(message_text + self.seed, 'utf8')
+        ).hexdigest()}');
+        """
+        )
         self.connection.commit()
         self.log_file.log_all(3, "Message added.")
 
-    def check_for_message(self,
-                          message_text: str
-                          ):
+    def check_for_message(self, message_text: str):
         """
         Check if message exists in the database
         :param message_text:
         :return:
         """
 
-        self.cursor.execute(f"""
+        self.cursor.execute(
+            f"""
             SELECT EXISTS(
                     SELECT mess_text FROM SeenMessages 
                     WHERE mess_text = '{hashlib.md5(bytes(message_text + self.seed, 'utf8')).hexdigest()}')
-        """)
+        """
+        )
         result = self.cursor.fetchone()[0]
         return result
 

@@ -3,10 +3,13 @@ from datetime import datetime
 from VkNotifier.VkNotifier import VkNotifier
 from Logger.Logger import Log
 import sentry_sdk
-sentry_sdk.init("https://eca61270fe5e4ceeb1046ad58ad7333e@o402810.ingest.sentry.io/5264523")
 
-if __name__ == '__main__':
-    """ # Debug
+sentry_sdk.init(
+    "https://eca61270fe5e4ceeb1046ad58ad7333e@o402810.ingest.sentry.io/5264523"
+)
+
+if __name__ == "__main__":
+    """# Debug
     login_type = int(input("Login method:\n"
                            "\t1 -> Group\n"
                            "\t2 -> User\n"
@@ -23,10 +26,7 @@ if __name__ == '__main__':
 
     log = Log(__name__)
     log.log_all(3, "Successfully started")
-    vk_notifier = VkNotifier(login_method=1,
-                             chat_to_send=1,
-                             send_only_to_dev=False
-                             )
+    vk_notifier = VkNotifier(login_method=1, chat_to_send=1, send_only_to_dev=False)
     vk_notifier.send_message_to_dev(text="Successfully started ;-)")
     sleep_university_time = int(600)
     sleep_summer_time = int(86400)
@@ -57,9 +57,9 @@ if __name__ == '__main__':
                     vk_notifier.db.close_connection()
                     vk_notifier.reset_counter()
 
-                sleep_night_time = 3600-(datetime.now().minute*60)
+                sleep_night_time = 3600 - (datetime.now().minute * 60)
                 log.log_all(3, f"Going to sleep for {sleep_night_time}s")
-                sleep(sleep_night_time-datetime.now().second)
+                sleep(sleep_night_time - datetime.now().second)
 
             else:
                 if long_sleep:
@@ -79,11 +79,13 @@ if __name__ == '__main__':
         except Exception as exception:
             exception_counter += 1
             log.log_all(1, exception)
-            vk_notifier.send_message_to_dev("Critical in main!\n"
-                                            "Exception:\n"
-                                            f"{str(exception)}")
+            vk_notifier.send_message_to_dev(
+                "Critical in main!\n" "Exception:\n" f"{str(exception)}"
+            )
             if exception_counter == 5:
-                vk_notifier.send_message_to_dev("Exception counter limit reached!\nExiting :-(")
+                vk_notifier.send_message_to_dev(
+                    "Exception counter limit reached!\nExiting :-("
+                )
                 vk_notifier.db.close_connection()
                 log.log_all(1, "Terminating bot")
                 exit(0)
