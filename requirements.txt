@@ -1,4 +1,4 @@
 vk-api
-imapclient
+imapclient>=2.2.0
 pyzmail36
 sentry_sdk
