@@ -15,7 +15,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build \
+      run: |
+        docker build \
         --file ./Dockerfile \
         --tag test_workflow:test \
         --build-arg _MAIL_LINK=$MAIL_LINK \
