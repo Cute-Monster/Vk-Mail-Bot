@@ -1,9 +1,10 @@
 # _**Bot which checks mailbox for new messages**_
 
-Multiservice project which contains 3 parts:    
-    - [IMAP service](#imapservice)
-    - [Database service](##atabaseservice)
-    - [Vkontakte(Notification) service](#notificationservice)
+
+Multiservice project which contains 3 parts:
+    1) [IMAP service](#imapservice)
+    2) [Database service](#atabaseservice)
+    3) [Vkontakte(Notification) service](#notificationservice)
 
 ## Service descriptions
 
