@@ -33,7 +33,7 @@ This service triggers imap service to get new messages and checks them for exist
 After necessary checks filtered list is sent via notification for the specified user and chat, if chat is set up.
 
 
-🔖
+## TODO 🔖
 ```
 Change IMAP service to lsten server for new messages in async mode
 ```
