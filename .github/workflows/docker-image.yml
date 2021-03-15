@@ -27,5 +27,5 @@ jobs:
         --build-arg _VK_ADMIN_ID=${{ secrets.VK_ADMIN_ID }} \
         .
     - name: Push Docker Image
-      run: docker push cutemonster/gmail_vk_bot:$(date %s)
+      run: docker push cutemonster/gmail_vk_bot:latest
 
