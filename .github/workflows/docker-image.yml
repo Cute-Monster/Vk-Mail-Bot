@@ -35,7 +35,7 @@ jobs:
       uses: docker/build-push-action@v2.3.0
       with:
         # Builder instance
-        builder: docker
+        builder: ubuntu-latest
         # Build's context is the set of files located in the specified PATH or URL
         context: .
         # Path to the Dockerfile
