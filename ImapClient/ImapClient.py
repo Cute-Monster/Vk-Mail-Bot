@@ -40,7 +40,7 @@ class ImapClient:
                 server.login(self.__mail_login, self.__mail_password)
                 server.select_folder("INBOX")
 
-                for uid, msg in server.fetch(server.search(), "RFC822").items():
+                for uid, msg in server.fetch(server.search([u'UNSEEN']), "RFC822").items():
                     # Be sure to change the uid num
                     message_factory: pyzmail.PyzMessage = pyzmail.PyzMessage.factory(
                         msg[b"RFC822"]

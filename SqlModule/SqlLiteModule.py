@@ -54,7 +54,8 @@ class SqlLiteModule:
         self.connection.commit()
         self.log_file.log_all(3, "Table SeenMessages created.")
 
-    def add_message(self, uid: int, message_text: str):
+    def add_message(self, uid, message_text):
+        # type: (int, str) -> None
         """
         Adds the message uid and text to table
         :param uid: Uid of the message
@@ -74,7 +75,8 @@ class SqlLiteModule:
         self.connection.commit()
         self.log_file.log_all(3, "Message added.")
 
-    def check_for_message(self, message_text: str):
+    def check_for_message(self, message_text):
+        # type: (str) -> int
         """
         Check if message exists in the database
         :param message_text:
@@ -88,7 +90,7 @@ class SqlLiteModule:
                     WHERE mess_text = '{hashlib.md5(bytes(message_text + self.seed, 'utf8')).hexdigest()}')
         """
         )
-        result = self.cursor.fetchone()[0]
+        result: int = self.cursor.fetchone()[0]
         return result
 
     def reconnect(self):
