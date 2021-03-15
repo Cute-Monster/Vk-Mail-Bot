@@ -18,7 +18,7 @@ jobs:
       run: |
         docker build \
         --file ./Dockerfile \
-        --tag cutemonster/gmail_vk_bot:$(date %s) \
+        --tag cutemonster/gmail_vk_bot:latest \
         --build-arg _MAIL_LINK=${{ secrets.MAIL_LINK }} \
         --build-arg _MAIL_USERNAME=${{ secrets.MAIL_USERNAME }} \
         --build-arg _MAIL_PASSWORD=${{ secrets.MAIL_PASSWORD }} \
