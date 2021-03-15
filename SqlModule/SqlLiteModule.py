@@ -98,7 +98,6 @@ class SqlLiteModule:
         Reconnect to database
         :return:
         """
-
         self.connection = sqlite3.connect(self.path_to_db)
         self.cursor = self.connection.cursor()
         self.log_file.log_all(3, "Reconnected to database.")

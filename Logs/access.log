@@ -4770,3 +4770,4 @@
 2021-03-12 17:31:46.175184 | <class 'SqlModule.SqlLiteModule.SqlLiteModule'> | INFO | Table exists.
 2021-03-12 17:32:24.438200 | <class 'SqlModule.SqlLiteModule.SqlLiteModule'> | INFO | Table exists.
 2021-03-12 17:32:28.442509 | __main__ | CRITICAL | [WinError 10061] No connection could be made because the target machine actively refused it
+
