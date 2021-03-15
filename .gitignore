@@ -6,3 +6,7 @@
 /forTests.py
 /.scannerwork/
 /attachments/
+./Tasks/env.sh
+*/__pycache__/
+.idea/
+

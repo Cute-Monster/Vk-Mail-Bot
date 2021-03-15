@@ -1,5 +1,5 @@
 import os
-from typing import List
+from typing import List, Dict, Any, Union
 
 import imapclient
 import pyzmail
@@ -18,10 +18,12 @@ class ImapClient:
     """
 
     def __init__(self):
-        self.__imap_link: str = os.getenv("Mail_Link")
-        self.__mail_login: str = os.getenv("Mail_Login")
-        self.__mail_password: str = os.getenv("Mail_Password")
-        self.__final_list_to_send: List[dict] = []
+        self.__imap_link: str = os.getenv("MAIL_LINK")
+        self.__mail_login: str = os.getenv("MAIL_USERNAME")
+        self.__mail_password: str = os.getenv("MAIL_PASSWORD")
+        self.__final_list_to_send: List[
+            Dict[str, Union[int, Any]]
+        ] = []
         self.__log_file: Log = Log(self.__class__)
 
     def __get_all_messages(self):

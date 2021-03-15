@@ -22,14 +22,14 @@ class VkNotifier:
 
     def __init__(self, login_method, chat_to_send, send_only_to_dev=True):
         # type: (VkNotifier, int, int, bool) -> None
-        self.user_login: str = ""
-        self.user_password: str = ""
+        self.user_login: str = os.getenv('VK_USERNAME')
+        self.user_password: str = os.getenv('VK_PASSWORD')
         self.token: str = os.getenv("Vk_Token")
         self.vk_session: vk_api.VkApi = vk_api.VkApi(token=self.token)
         self.vk = self.vk_session.get_api()
         (self.login_throw_user() if login_method == 2 else self.login_throw_group())
         self.sleep_time: int = 15
-        self.dev_vk_id: str = "198253590"
+        self.dev_vk_id: str = os.getenv('VK_ADMIN_ID')
         self.send_only_to_dev: bool = send_only_to_dev
         self.group_chat_ids: dict = {1: 1, 2: 3}  # Mr.Robot -> 1, Test -> 3
         self.group_chat_id: int = self.group_chat_ids.get(chat_to_send)
