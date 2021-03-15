@@ -13,21 +13,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-     - name: Build and Push the Docker image
-       run: |
-         docker build \
-         --file ./Dockerfile \
-         --tag cutemonster/gmail_vk_bot:latest \
-         --build-arg _MAIL_LINK=${{ secrets.MAIL_LINK }} \
-         --build-arg _MAIL_USERNAME=${{ secrets.MAIL_USERNAME }} \
-         --build-arg _MAIL_PASSWORD=${{ secrets.MAIL_PASSWORD }} \
-         --build-arg _DB_SEED=${{ secrets.DB_SEED }} \
-         --build-arg _VK_API_TOKEN=${{ secrets.VK_API_TOKEN }} \
-         --build-arg _VK_ADMIN_ID=${{ secrets.VK_ADMIN_ID }} \
-         .
-         echo " ${{ github.token }}" | docker login -u cutemonster --password-stdin
-         docker push cutemonster/gmail_vk_bot:latest
+      - uses: actions/checkout@v2
+      - name: Build and Push the Docker image
+        run: |
+          docker build \
+          --file ./Dockerfile \
+          --tag cutemonster/gmail_vk_bot:latest \
+          --build-arg _MAIL_LINK=${{ secrets.MAIL_LINK }} \
+          --build-arg _MAIL_USERNAME=${{ secrets.MAIL_USERNAME }} \
+          --build-arg _MAIL_PASSWORD=${{ secrets.MAIL_PASSWORD }} \
+          --build-arg _DB_SEED=${{ secrets.DB_SEED }} \
+          --build-arg _VK_API_TOKEN=${{ secrets.VK_API_TOKEN }} \
+          --build-arg _VK_ADMIN_ID=${{ secrets.VK_ADMIN_ID }} \
+          .
+          echo " ${{ github.token }}" | docker login -u cutemonster --password-stdin
+          docker push cutemonster/gmail_vk_bot:latest
 #     - name: Push Docker Image
 #       run: docker push cutemonster/gmail_vk_bot:latest
 
