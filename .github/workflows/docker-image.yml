@@ -18,12 +18,14 @@ jobs:
       run: |
         docker build \
         --file ./Dockerfile \
-        --tag test_workflow:test \
-        --build-arg _MAIL_LINK=$MAIL_LINK \
-        --build-arg _MAIL_USERNAME=$MAIL_USERNAME \
-        --build-arg _MAIL_PASSWORD=$MAIL_PASSWORD \
-        --build-arg _DB_SEED=$_DB_SEED \
-        --build-arg _VK_API_TOKEN=$_VK_API_TOKEN \
-        --build-arg _VK_ADMIN_ID=$VK_ADMIN_ID \
+        --tag cutemonster/gmail_vk_bot:$(date %s) \
+        --build-arg _MAIL_LINK=${{ secrets.MAIL_LINK }} \
+        --build-arg _MAIL_USERNAME=${{ secrets.MAIL_USERNAME }} \
+        --build-arg _MAIL_PASSWORD=${{ secrets.MAIL_PASSWORD }} \
+        --build-arg _DB_SEED=${{ secrets.DB_SEED }} \
+        --build-arg _VK_API_TOKEN=${{ secrets.VK_API_TOKEN }} \
+        --build-arg _VK_ADMIN_ID=${{ secrets.VK_ADMIN_ID }} \
         .
+    - name: Push Docker Image
+      run: docker push cutemonster/gmail_vk_bot:$(date %s)
 
