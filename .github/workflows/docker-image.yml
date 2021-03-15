@@ -14,18 +14,64 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Build the Docker image
-      run: |
-        docker build \
-        --file ./Dockerfile \
-        --tag cutemonster/gmail_vk_bot:latest \
-        --build-arg _MAIL_LINK=${{ secrets.MAIL_LINK }} \
-        --build-arg _MAIL_USERNAME=${{ secrets.MAIL_USERNAME }} \
-        --build-arg _MAIL_PASSWORD=${{ secrets.MAIL_PASSWORD }} \
-        --build-arg _DB_SEED=${{ secrets.DB_SEED }} \
-        --build-arg _VK_API_TOKEN=${{ secrets.VK_API_TOKEN }} \
-        --build-arg _VK_ADMIN_ID=${{ secrets.VK_ADMIN_ID }} \
-        .
-    - name: Push Docker Image
-      run: docker push cutemonster/gmail_vk_bot:latest
+#     - name: Build the Docker image
+#       run: |
+#         docker build \
+#         --file ./Dockerfile \
+#         --tag cutemonster/gmail_vk_bot:latest \
+#         --build-arg _MAIL_LINK=${{ secrets.MAIL_LINK }} \
+#         --build-arg _MAIL_USERNAME=${{ secrets.MAIL_USERNAME }} \
+#         --build-arg _MAIL_PASSWORD=${{ secrets.MAIL_PASSWORD }} \
+#         --build-arg _DB_SEED=${{ secrets.DB_SEED }} \
+#         --build-arg _VK_API_TOKEN=${{ secrets.VK_API_TOKEN }} \
+#         --build-arg _VK_ADMIN_ID=${{ secrets.VK_ADMIN_ID }} \
+#         .
+#     - name: Push Docker Image
+#       run: docker push cutemonster/gmail_vk_bot:latest
+    
+    - name: Build and push Docker images
+      # You may pin to the exact commit or the version.
+      # uses: docker/build-push-action@9379083e426e2e84abb80c8c091f5cdeb7d3fd7a
+      uses: docker/build-push-action@v2.3.0
+      with:
+        # Builder instance
+        builder: python:3.8
+        # Build's context is the set of files located in the specified PATH or URL
+        context: .
+        # Path to the Dockerfile
+        file: Dockerfile
+        # List of build-time variables
+        build-args: _MAIL_LINK=${{ secrets.MAIL_LINK }}, _MAIL_USERNAME=${{ secrets.MAIL_USERNAME }}, _MAIL_PASSWORD=${{ secrets.MAIL_PASSWORD }} _DB_SEED=${{ secrets.DB_SEED }}, _VK_API_TOKEN=${{ secrets.VK_API_TOKEN }}, _VK_ADMIN_ID=${{ secrets.VK_ADMIN_ID }} 
+        # List of metadata for an image
+        labels: ''
+        # List of tags
+        tags: cutemonster/gmail_vk_bot:latest
+        # Always attempt to pull a newer version of the image
+        pull: false
+        # Sets the target stage to build
+        target: ''
+        # List of extra privileged entitlement (eg. network.host,security.insecure)
+        allow: ''
+        # Do not use cache when building the image
+        no-cache: false
+        # List of target platforms for build
+        platforms: ''
+        # Load is a shorthand for --output=type=docker
+        load: false
+        # Push is a shorthand for --output=type=registry
+        push: true
+        # List of output destinations (format: type=local,dest=path)
+        outputs: ''
+        # List of external cache sources for buildx (eg. user/app:cache, type=local,src=path/to/dir)
+        cache-from: ''
+        # List of cache export destinations for buildx (eg. user/app:cache, type=local,dest=path/to/dir)
+        cache-to: ''
+        # List of secrets to expose to the build (eg. key=string, GIT_AUTH_TOKEN=mytoken)
+        secrets: ''
+        # List of secret files to expose to the build (eg. key=filename, MY_SECRET=./secret.txt)
+        secret-files: ''
+        # List of SSH agent socket or keys to expose to the build
+        ssh: ''
+        # GitHub Token used to authenticate against a repository for Git context
+        github-token: ${{ github.token }}
 
