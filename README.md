@@ -1,10 +1,10 @@
 # _**Bot which checks mailbox for new messages**_
 
-
-Multiservice project which contains 3 parts:
-    1) [IMAP service](#imapservice)
-    2) [Database service](#atabaseservice)
-    3) [Vkontakte(Notification) service](#notificationservice)
+## Content
+Multi-service project which contains 3 parts:
+- [IMAP service](#imap-service)
+- [Database service](#database-service)
+- [Vkontakte(Notification) service](#notification-service)
 
 ## Service descriptions
 
@@ -33,7 +33,8 @@ This service triggers imap service to get new messages and checks them for exist
 After necessary checks filtered list is sent via notification for the specified user and chat, if chat is set up.
 
 
-```TODO
+🔖
+```
 Change IMAP service to lsten server for new messages in async mode
 ```
 
