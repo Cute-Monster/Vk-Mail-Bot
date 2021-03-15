@@ -15,4 +15,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag test_workflow:$(date +%s)
+      run: docker build \
+      --file Dockerfile \
+      --tag test_workflow:$(date +%s) \
+      --build-arg _MAIL_LINK=$MAIL_LINK \
+      --build-arg _MAIL_USERNAME=$MAIL_USERNAME \
+      --build-arg _MAIL_PASSWORD=$MAIL_PASSWORD \
+      --build-arg _DB_SEED=$_DB_SEED \
+      --build-arg _VK_API_TOKEN=$_VK_API_TOKEN \
+      --build-arg _VK_ADMIN_ID=$VK_ADMIN_ID \
+      .
+

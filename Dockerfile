@@ -1,14 +1,28 @@
 FROM python:3.8
 
-RUN mkdir gmail_vk_bot
+RUN mkdir -p /usr/app/gmail_vk_bot
 
-WORKDIR /home/pi/gmail_vk_bot
+WORKDIR /usr/app/gmail_vk_bot
 
-ENV Mail_Link=""
-ENV Mail_Login=""
-ENV Mail_Password=""
-ENV DB_Seed=""
-ENV Vk_Token=""
+ARG _MAIL_LINK=''
+ARG _MAIL_USERNAME=''
+ARG _MAIL_PASSWORD=''
+ARG _DB_SEED=''
+ARG _VK_API_TOKEN=''
+ARG _VK_USERNAME=''
+ARG _VK_PASSWORD=''
+ARG _VK_ADMIN_ID=''
+
+RUN echo "THIS IS MAIL_LINK $_MAIL_LINK"
+# Setting up Env vars
+ENV MAIL_LINK=$_MAIL_LINK
+ENV MAIL_USERNAME=$_MAIL_USERNAME
+ENV MAIL_PASSWORD=$_MAIL_PASSWORD
+ENV DB_SEED=$_DB_SEED
+ENV VK_API_TOKEN=$_VK_API_TOKEN
+ENV VK_USERNAME=$_VK_USERNAME
+ENV VK_PASSWORD=$_VK_PASSWORD
+ENV VK_ADMIN_ID=$_VK_ADMIN_ID
 
 COPY ./Logs/ ./Logs
 COPY ./Logger ./Logger
